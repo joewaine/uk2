@@ -1,0 +1,444 @@
+[
+  {
+    "PersonaName": "Information Worker",
+    "Description": "An information worker is a generic office employee. If none of the other personas fit your team, choose this common profile.An information worker is a generic office employee. If none of the other personas fit your team, choose this common profile.",
+    "img": "../../src/assets/personas/information-worker.jpg",
+    "Icon": "icon icon-teacher",
+    "Roles": [
+      "Project Manager",
+      "Analyst",
+      "Consultant",
+      "Product Manager",
+      "Assistant",
+      "Coordinator"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Content authoring",
+        "Level": 3
+      },
+      {
+        "Capability": "Mail & calendaring",
+        "Level": 3
+      },
+      {
+        "Capability": "Collaboration",
+        "Level": 2
+      },
+      {
+        "Capability": "Portability",
+        "Level": 3
+      },
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "PersonaName": "Creatives",
+    "Description": "The creative persona wants to create. Creatives are dedicated to original work and always considering the human experience. This persona is responsible for envisioning new experience designs, solutions, and products that address business challenges.",
+    "Icon": "icon icon-creative",
+    "img": "../../src/assets/personas/creatives.jpg",
+    "Roles": [
+      "Graphic Designer",
+      "Videographer",
+      "Designer",
+      "Editor",
+      "Producer"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Digital ink/pen",
+        "Level": 3
+      },
+      {
+        "Capability": "Input",
+        "Level": 2
+      },
+      {
+        "Capability": "Computing power",
+        "Level": 3
+      },
+      {
+        "Capability": "Build & design",
+        "Level": 3
+      },
+      {
+        "Capability": "Interactivity",
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "PersonaName": "Executive",
+    "Description": "Executive leaders seek a continuous, updated overview of what’s going on across their organization. The top priority is to always be informed. Executives are concerned with the day-to-day operational effectiveness of the business and with aligning all business units to deliver on long-term strategic goals.",
+    "img": "../../src/assets/personas/executive.jpg",
+    "Icon": "icon icon-star",
+    "Roles": [
+      "CEO",
+      "Other C-level execs",
+      "COO",
+      "CMO",
+      "CFO",
+      "VP",
+      "Director",
+      "Team lead",
+      "LOB Owner"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Content Authoring",
+        "Level":  1
+      },
+      {
+        "Capability": "Mail & calendaring",
+        "Level": 3
+      },
+      {
+        "Capability": "Collaboration",
+        "Level":  1
+      },
+      {
+        "Capability": "Meetings & voice",
+        "Level": 2
+      },
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "Sales",
+    "Description": "Sales team members like to get things done on the go and have everything available on their devices. Always in communication with customers, these employees prepare pitch decks and proposals; share marketing materials; email, call, and meet with customers; research customer information; and consume competitor and market information.",
+    "img": "../../src/assets/personas/sales.jpg",
+    "Icon": "icon icon-bars",
+    "Roles": [
+      "Account Manager",
+      "Sales Team Lead",
+      "Account Executive",
+      "Specialist",
+      "Account Strategist",
+      "Advisor"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability":  "Content authoring",
+        "Level": 2
+      },
+      {
+        "Capability": "Mail & calendaring",
+        "Level": 3
+      },
+      {
+        "Capability": "Enterprise social",
+        "Level": 2
+      },
+      {
+        "Capability": "Meetings & voice",
+        "Level": 2
+      },
+      {
+        "Capability": "Portability",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "Developer",
+    "Description": "Developers write code for information services, including applications and system components. They manage all aspects of the software development lifecycle, including architecting, planning, writing, and testing. They make cool stuff come to life.",
+    "img": "../../src/assets/personas/developer.jpg",
+    "Icon": "icon icon-settings",
+    "Roles": [
+      "Systems Engineer",
+      "Solutions Architect",
+      "UI Developer",
+      "Database Architect",
+      "Development Lead",
+      "QA Lead"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Analytics",
+        "Level": 3
+      },
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 1
+      },
+      {
+        "Capability": "Security & management",
+        "Level": 3
+      },
+      {
+        "Capability": "Computing power",
+        "Level": 3
+      },
+      {
+        "Capability": "Extensibility",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "Marketer",
+    "Description": "Marketing bridges the gap between the organization and the customer. The marketing team interfaces constantly with customers, creating marketing materials, collaborating with sales, presenting to groups, and informing product development teams. Marketing team members have a passion for company products and for crafting messaging that will inspire customers.",
+    "img": "../../src/assets/personas/marketing.jpg",
+    "Icon": "icon icon-marketing",
+    "Roles": [
+      "CMO",
+      "Demand Gen Strategist",
+      "Digital Marketer",
+      "Market Researcher",
+      "Pricing Analyst",
+      "Product Marketer"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Content authoring",
+        "Level": 3
+      },
+      {
+        "Capability": "Communications",
+        "Level": 3
+      },
+      {
+        "Capability": "Collaboration",
+        "Level": 2
+      },
+      {
+        "Capability": "Meetings & voice",
+        "Level": 3
+      },
+      {
+        "Capability": "Camera, video, & microphone",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "Teacher",
+    "Description": "Teachers focus on providing the best learning experiences for their students. They plan courses, prepare classes, grade tests and papers, respond to questions, and teach. Higher education professors are also involved with research and publishing.",
+    "img": "../../src/assets/personas/teacher.jpg",
+    "Icon": "icon icon-teacher",
+    "Roles": [
+      "K-12 Teacher",
+      "Professor",
+      "Librarian",
+      "Chemist",
+      "Archeologist",
+      "Botanist"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Content authoring",
+        "Level": 2
+      },
+      {
+        "Capability": "Portability",
+        "Level": 1
+      },
+      {
+        "Capability": "Digital ink/pen",
+        "Level": 3
+      },
+      {
+        "Capability": "Batteries",
+        "Level": 2
+      },
+      {
+        "Capability": "Extensibility",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "IT Manager/IT",
+    "Description": "IT admins ensure the availability and continuous operation of their organization’s IT infrastructure, systems, and applications. IT constantly monitors internal systems, fixing employee technical issues and developing and carrying out improvement roadmaps.",
+    "img": "../../src/assets/personas/it.jpg",
+    "Icon": "icon icon-IT",
+    "Roles": [
+      "CIO",
+      "VP IT",
+      "Help Desk Manager",
+      "Technology Services lead",
+      "Systems administrator",
+      "Technology architect",
+      "Technology associate"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Collaboration",
+        "Level": 1
+      },
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 3
+      },
+      {
+        "Capability": "Security & management",
+        "Level": 3
+      },
+      {
+        "Capability": "Portability",
+        "Level": 2
+      },
+      {
+        "Capability": "Interactivity",
+        "Level": 1
+      },
+      {
+        "Capability": "Biometrics",
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "PersonaName": "Firstline worker",
+    "Description": "Firstline workers, the external arm of an organization, are constantly on the go, meeting with customer organizations to troubleshoot issues or maintain contact with products or people. Field workers need to have the tools required to perform their duties at all times, and they need to maintain constant contact with support teams at headquarters.",
+    "img": "../../src/assets/personas/field-worker.jpg",
+    "Icon": "icon icon-user",
+    "Roles": [
+      "Manufacturing Rep",
+      "Engineer",
+      "Service Engineer",
+      "Field Technician",
+      "Systems Maintenance",
+      "Social Worker",
+      "Case Manager"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Natural language processing",
+        "Level": 2
+      },
+      {
+        "Capability": "Digital ink/pen",
+        "Level": 2
+      },
+      {
+        "Capability": "Portability",
+        "Level": 3
+      },
+      {
+        "Capability": "Biometrics",
+        "Level": 1
+      },
+      {
+        "Capability": "Continuum",
+        "Level" : 1
+      }
+    ]
+  },
+  {
+    "PersonaName": "Engineer",
+    "Description": "Engineers write code for new applications; maintain the uptime and availability of mission-critical line-of-business applications; and manage tasks like system maintenance, updates, and upgrades. Engineers constantly evaluate current systems while planning projects to improve and expand them, including options for data backup and disaster recovery.",
+    "img": "../../src/assets/personas/teacher.jpg",
+    "Icon": "icon icon-teacher",
+    "Roles": [
+      "Mechanical Engineer",
+      "Civil Engineer",
+      "Electrical Engineer",
+      "Biomedical Engineer",
+      "Industrial Designer",
+      "Architect"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 1
+      },
+      {
+        "Capability": "Analytics",
+        "Level": 3
+      },
+      {
+        "Capability": "Security & management",
+        "Level": 3
+      },
+      {
+        "Capability": "Computing power",
+        "Level": 3
+      },
+      {
+        "Capability": "Extensibility",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "Clinician",
+    "Description": "Clinicians provide direct medical contact with patients. They’re responsible for diagnosing patients, communicating with them, and prescribing treatments.",
+    "img": "../../src/assets/personas/healthcare-provider.jpg",
+    "Icon": "icon icon-health",
+    "Roles": [
+      "Doctor",
+      "Nurse",
+      "Physician Assistant",
+      "Nurse Practitioner",
+      "Medical Director",
+      "Radiologist",
+      "Clinical Psychologist"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Biometrics",
+        "Level": 2
+      },
+      {
+        "Capability": "Input",
+        "Level": 3
+      },
+      {
+        "Capability": "Security & management",
+        "Level": 3
+      },
+      {
+        "Capability": "Portability",
+        "Level": 3
+      },
+      {
+        "Capability": "Batteries",
+        "Level": 3
+      }
+    ]
+  },
+  {
+    "PersonaName": "HR",
+    "Description": "HR handles employee issues like compensation, hiring, benefits, performance management, and training. HR team members constantly communicate, authoring relevant oral and written information and presenting it across the company.",
+    "img": "../../src/assets/personas/hr.jpg",
+    "Icon": "icon icon-WebcamLegacy",
+    "Roles": [
+      "VP of HR",
+      "Recruiter",
+      "HR Generalist",
+      "Communications Director",
+      "Training Coordinator",
+      "General Counsel",
+      "Benefits Manager"
+    ],
+    "PersonaCapabilityMappings": [
+      {
+        "Capability": "Mail & calendaring",
+        "Level": 3
+      },
+      {
+        "Capability": "Meetings & voice",
+        "Level": 3
+      },
+      {
+        "Capability": "Advanced security & compliance",
+        "Level": 3
+      },
+      {
+        "Capability": "Security & device management",
+        "Level": 3
+      },
+      {
+        "Capability": "Camera, video & microphone",
+        "Level": 3
+      }
+    ]
+  }
+]

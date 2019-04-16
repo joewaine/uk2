@@ -1,0 +1,52 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>1. Pick your employee</p>
+    <button (click)="next()" class="btn-chevron btn-chevron--next pull-right" [disabled]="!Assessment.Persona.PersonaName"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+<!-- Content Container -->
+<div class="container content">
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <h1>{{copy.title}}</h1>
+            <p>{{copy.content}}</p>
+            <p>{{copy.explanation}}</p>
+        </div>
+    </div>
+    <div class="row padded-vert padded-footer" id="employess" *ngIf="isDataAvailable">
+        <div *ngFor="let persona of personas" class="col-md-6 col-xl-4 padded-bottom2x">
+            <div class="employee">
+                <div class="employee-info">
+                    <i class="pers-icon" [ngClass]="persona.Icon"></i>
+                    <h4 class="padded-bottom">{{persona.PersonaName}}</h4>
+                    <a class="show caps underline pull-right small" (click)="showMore(persona)">
+                        <span [ngClass]="{'active': persona.ShowMore}">More Info</span>
+                        <span [ngClass]="{'active': !persona.ShowMore}">Less Info</span>
+                    </a>
+                    <ul class="roles list-unstyled row">
+                        <li class="col-6 small" *ngFor="let role of persona.Roles">{{role}}</li>
+                    </ul>
+                    <p class="small desc" [ngClass]="{'active': persona.ShowMore}">{{persona.Description}}</p>
+                </div>
+                <button class="btn-white caps btn-select" (click)="selectEmployee(persona)" [ngClass]="{'checked' : Assessment.Persona.PersonaName === persona.PersonaName}">
+                    <span *ngIf="Assessment.Persona.PersonaName !== persona.PersonaName">Select This Employee</span>
+                    <i *ngIf="Assessment.Persona.PersonaName === persona.PersonaName" class="icon icon-checked"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row padded-footer">
+        <div class="col">
+            <button (click)="next()" class="btn-blue pull-right" [disabled]="!Assessment.Persona.PersonaName">{{copy?.buttonText}}</button>
+        </div>
+    </div>
+</div>

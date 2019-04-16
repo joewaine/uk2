@@ -1,0 +1,29 @@
+<div class="chart-box padded">
+  <div class="row">
+    <div class="col-12 graph-icon">
+      <i class="icon icon-info tooltip" tabindex="0">
+        <span class="tooltiptext tooltiptext--radar">Surface devices are ranked from highest to lowest according to on your inputs. They combine your current maturity scores, any capability gaps, and scoring of how each device handles your selected capabilities. Click the boxes to compare the scores of each device for each technology capability. The results might surprise you!</span>
+      </i>
+    </div>
+  </div>
+  <div class="row chart-container">
+    <div class="col-12 col-lg-4 surface-btns">
+      <div class="surface-btns__inner">
+        <div class="small legend-item" tabindex="0" *ngFor="let surface of adjustedRadarData; let idx = index" [ngStyle]="{'color': surface.BorderColor}" (click)="toggleDeviceData(surface, idx)" (keyup.enter)="toggleDeviceData(surface, idx)">
+          <div class="legend-item__box">
+            <span *ngIf="idx===0 || surface.active" [ngStyle]="{'background-color': surface.BorderColor, 'border':'2px solid ' + surface.BorderColor}" class="surface-btn"></span>
+            <span *ngIf="idx!==0 && !surface.active" [ngStyle]="{'border':'2px solid ' + surface.BorderColor}" class="surface-btn"></span>
+          </div>
+          <div class="legend-item__description">
+            <p>{{(idx + 1)}}. {{surface.label}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-8 radar-container">
+      <div class="radar-container__inner">
+        <canvas id="radar" baseChart [datasets]="adjustedRadarData" [labels]="radarChartLabels" [options]="radarChartOptions" [chartType]="radarChartType" [colors]="chartColors"></canvas>
+      </div>
+    </div>
+  </div>
+</div>

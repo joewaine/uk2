@@ -1,0 +1,49 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>3. Capabilities</p>
+    <button (click)="prev()" class="btn-chevron btn-chevron--prev pull-right"></button>
+    <button (click)="next()" class="btn-chevron btn-chevron--next pull-right" [disabled]="Assessment.Capabilities.length < 5"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+<div id="capabilities" class="container content">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 padded-bottom2x">
+            <h1>{{copy.title}}</h1>
+            <div [innerHTML]="copy.content"></div>
+        </div>
+    </div>
+    <div class="row error-container">
+      <div class="col-12">
+        <p *ngIf="!showError">Please only choose 5 capabilities</p>
+        <p class="error-message" *ngIf="showError">Please only choose 5 capabilities</p>
+      </div>
+    </div>
+    <div class="row">
+        <div *ngFor="let capability of capabilities" class="col-2  cap-col">
+            <div class="cap-box" [ngClass]="{'recommended': capability.Recommended, 'selected': capability.Selected}" (click)="selectCapability(capability)" tabindex="0">
+                <i class="cap-icon icon" [ngClass]="capability.Icon"></i>
+                <div class="text-container">
+                  <p class="title">{{capability.CapabilityName}}</p>
+                  <p class="recommended" *ngIf="capability.Recommended">Recommended</p>
+                </div>
+                <i class="icon icon-info tooltip tooltip--openLeft" tabindex="0">
+                    <span class="tooltiptext">{{capability.Description}}</span>
+                </i>
+            </div>
+        </div>
+    </div>
+    <div class="row padded-footer">
+        <div class="col">
+            <button (click)="next()" class="btn-blue pull-right" [disabled]="Assessment.Capabilities.length < 5">{{copy?.buttonText}}</button>
+        </div>
+    </div>
+</div>

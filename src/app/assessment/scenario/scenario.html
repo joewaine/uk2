@@ -1,0 +1,45 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>2. Refine the scenario</p>
+    <button (click)="prev()" class="btn-chevron btn-chevron--prev pull-right"></button>
+    <button (click)="next()" class="btn-chevron btn-chevron--next pull-right" [disabled]="!scenarioForm.valid"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+<!-- Content Container -->
+<div class="container content" id="scenario">
+    <form (ngSubmit)="onSubmit()" #scenarioForm="ngForm">
+    <div class="row padded-footer">
+            <div class="col-xs-12 col-md-7">
+                <h1>Refine the scenarios based<br>on your {{Assessment.Persona.PersonaName}} team's use cases.</h1>
+                <p>{{copy.content}}</p>
+                <div class="form-container">
+                  <div class="form-group row" *ngFor="let question of copy.questions; let indx = index;">
+                      <i [ngClass]="question.icon"></i>
+                      <div class="radio-row radio-row--employees">
+                          <p class="question">{{question.question}}</p>
+                          <div class="radio-container">
+                            <div class="radio-block" *ngFor="let answer of question.answers; let idx = index;" [ngClass]="{'is-25--desktop': indx == 0, 'is-20--desktop': indx == 1, 'is-50--desktop': indx >= 2}">
+                                <input type="radio" name="{{question.id}}" [id]="question.id + idx" value="{{answer}}"  [ngModel]="scenario[question.id]" required/>
+                                <label (click)="selectValue(question, answer)" [for]="question.id + idx">{{answer}}</label>
+                            </div>
+                            <div class="check" *ngIf="question.response !== '' "></div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-5 align-self-end">
+                <button class="btn-blue pull-right margin-top2x" type="submit" [disabled]="!scenarioForm.valid">{{copy?.buttonText}}</button>
+            </div>
+    </div>
+    </form>
+</div>

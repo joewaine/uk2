@@ -1,0 +1,41 @@
+$segoe: 'Segoe UI Regular', -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+$segoe-light: 'Segoe UI Light', -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+$segoe-semi: 'Segoe UI Semibold', -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+$segoe-bold: 'Segoe UI Bold', -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+
+
+$breakpoint-xs: 550px;
+$breakpoint-s: 768px;
+$breakpoint-m: 992px;
+$breakpoint-l: 1200px;
+
+$XS: 'min-width:'+ $breakpoint-xs;
+$S: 'min-width:'+ $breakpoint-s;
+$M: 'min-width:'+ $breakpoint-m;
+$L: 'min-width:'+ $breakpoint-l;
+
+$blue: #0078d4;
+$green: #6cb33f;
+$grey: #EBEBEB;
+$dark-grey: #747474;
+$darkest-grey: #505050;
+
+$surfacePerf: #0078d4;
+$surfaceStudio: #ea1e79;
+$surfacePro: #662d8e;
+$surfaceLap: #08699b;
+$surfaceBook: #f4901e;
+$surfaceHub: #22b273;
+$surfaceSB2-13: #E61E27;
+$surfaceSB2-15:  #45C0BE;
+$surfaceLTE:  #FFCB3F;
+
+// $surfacePerf: rgba(0,120,212,0.5);
+// $surfaceStudio: rgba(234,30,121,0.5);
+// $surfacePro: rgba(102,45,142,0.5);
+// $surfaceLap: rgba(8,105,155,0.5);
+// $surfaceBook: rgba(244,144,30,0.5);
+// $surfaceHub: rgba(34,178,115,0.5);
+// $surfaceSB2-13: rgba(230,30,39,0.5);
+// $surfaceSB2-15: rgba(69,192,190,0.5);
+// $surfaceLTE:  rgba(255,206,63,0.5);

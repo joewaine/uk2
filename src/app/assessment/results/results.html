@@ -1,0 +1,246 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>5. Results</p>
+    <button (click)="prev()" class="btn-chevron btn-chevron--prev pull-right"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+    </div>
+  </div>
+</nav>
+<div class="results-container">
+    <nav class="sub-nav">
+        <div class="container">
+            <ul class="list-unstyled">
+                <li (click)="scrollTo('score-card', 0.5)" class="underline-text">Mobility Score Card</li>
+                <li (click)="scrollTo('chart', 0.75)">Your Surface</li>
+                <li (click)="scrollTo('capabilities', 1)">Capability Benefits</li>
+                <li (click)="scrollTo('next', 1)">Next Steps</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="results" *ngIf="isDataAvailable">
+
+        <div id="score-card">
+            <div class="container padded-vert2x">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="column-headline">Your worker</p>
+                        <div class="img-box" [ngStyle]="{'background': 'linear-gradient(rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.4)), url(' + Assessment.Persona.img + ') no-repeat center 25%'}">
+                            <h3 class="title white">{{Assessment.Persona.PersonaName}}</h3>
+                            <i class="icon icon-info white tooltip tooltip--openLeft" tabindex="0">
+                                <span class="tooltiptext">{{Assessment.Persona.Description}}</span>
+                            </i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mobile-order--1">
+                        <p class="column-headline">{{Assessment.Persona.PersonaName}}'s 5 key capabilities</p>
+                        <div class="cap-box cap-box--small" *ngFor="let cap of Assessment.Capabilities">
+                            <i class="cap-icon icon" [ngClass]="cap.Icon"></i>
+                            <p>{{cap.CapabilityName}}</p>
+                            <i class="icon icon-info tooltip tooltip--openLeft" tabindex="0">
+                                <span class="tooltiptext">{{cap.Description}}</span>
+                            </i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mobile-order--0">
+                        <p class="column-headline">Your {{Assessment.Persona.PersonaName}} team's mobility index score</p>
+                        <div class="mobility-score bg-white padded">
+                            <h1>{{percentage}}%</h1>
+                        </div>
+                        <p class="column-headline">Where your team is in their mobility journey</p>
+                        <div class="mobility-journey bg-white padded padded-bottom2x">
+                            <i class="icon icon-info tooltip tooltip--openLeft" tabindex="0">
+                                <span class="tooltiptext">Surface devices are ranked according to how each scored based on your inputs. Click the boxes to see and compare the scores of each device for each technology capability. The results might surprise you!</span>
+                            </i>
+                            <h3>{{currentLevel}}</h3>
+                            <div class="levels" [ngClass]="currentLevel">
+                                <div class="level lagging"><span></span></div>
+                                <div class="level following"><span></span></div>
+                                <div class="level disparate"><span></span></div>
+                                <div class="level adopting"><span></span></div>
+                                <div class="level modern"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mobile-order--2">
+                        <p class="column-headline">What your {{Assessment.Persona.PersonaName}} category means</p>
+                        <div class="bg-white padded" *ngIf="currentLevel==='Lagging'">
+                            <p class="no-margin">Your {{Assessment.Persona.PersonaName}} employees scored in the least mature modern device category.</p>
+                            <p>Laggers have not adopted a cohesive device strategy. They make up the bottom fifth of the market. The device portfolio is fragmented and limits the capabilities of {{Assessment.Persona.PersonaName}} employees.</p>
+                            <p>Applying a device portfolio strategy for each employee group, like your {{Assessment.Persona.PersonaName}} employees, can dramatically improve your modern device score.</p>
+                        </div>
+                        <div class="bg-white padded" *ngIf="currentLevel==='Following'">
+                            <p class="no-margin">Your {{Assessment.Persona.PersonaName}} team ranks as a follower on the modern device index.</p>
+                            <p>You have few modern device capability investments and light or tentative planning for the future. Your team is behind the modern device curve.</p>
+                            <p>Premium device experiences that serve your chosen capabilities can help your team move up the spectrum.</p>
+                        </div>
+                        <div class="bg-white padded" *ngIf="currentLevel==='Adopting'">
+                            <p class="no-margin">Your {{Assessment.Persona.PersonaName}}  employees are currently in the middle of their modern device journey.</p>
+                            <p>Their devices currently lack cohesiveness, and that can affect productivity. Having different capability levels sets expectations for a shared experience but can lead to abrupt downtime when group members run into a capability gap. </p>
+                            <p>Smoothing the fragmentation with premium devices can help secure a shared experience across your {{Assessment.Persona.PersonaName}} team.</p>
+                        </div>
+                        <div class="bg-white padded" *ngIf="currentLevel==='Exceeding'">
+                            <p class="no-margin">Your {{Assessment.Persona.PersonaName}} employees are close to full maturity.</p>
+                            <p>Your team is quickly adopting fully mature device experience capabilities. Adopters are second to modern users and experience some limited compromises in their day-to-day work.</p>
+                            <p>Providing your {{Assessment.Persona.PersonaName}} employees with premium devices built for their needs and tasks can bridge the final gap and help your team function at full maturity.</p>
+                        </div>
+                        <div class="bg-white padded" *ngIf="currentLevel==='LEading'">
+                            <p class="no-margin">Congratulations, your {{Assessment.Persona.PersonaName}} employees are at the top of the device spectrum!</p>
+                            <p>Your {{Assessment.Persona.PersonaName}} team is taking advantage of modern capabilities in their everyday tasks. To maintain this modern productivity experience, ensure your team members are getting the most out of their mature status with premium devices built around their key capabilities and tasks.</p>
+                        </div>
+                        <button (click)="nextLink('share')" class="btn-blue caps margin-top2x text-align--right full-width--mobile"><i class="icon icon-MailLegacy"></i> Email your results</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="chart" class="container padded-vert2x">
+          <div class="row sub-section-header">
+            <div class="col-12">
+              <h2>Your Surface</h2>
+              <p>Based on your inputs, your team recommended {{selectedDevice}}</p>
+            </div>
+          </div>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <p class="small-margin--bottom">Recommended Microsoft Surface, based on your inputs</p>
+                </div>
+                <div class="col-9 graph-desc">
+                  <p class="small-margin--bottom">Each device offers its own core competencies. The graph below illustrates how each Surface addresses your current capability gaps.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 recommended-device is-aligned-self">
+                    <div class="recommended-surface padded">
+                        <h2>{{selectedDevice}}</h2>
+                    </div>
+                    <p>How Surface will improve your {{Assessment.Persona.PersonaName}} employees</p>
+                    <div class="list padded">
+                        <ul class="list-unstyled">
+                            <li *ngIf="Assessment.Scenario.Screens === '0'">Your employees can work without skipping a beat on only a device's screen.</li>
+                            <li *ngIf="Assessment.Scenario.Screens !== '0'">
+                                Your employees can seamlessly connect to
+                                <span *ngIf="Assessment.Scenario.Screens === '1'">an external screen</span>
+                                <span *ngIf="Assessment.Scenario.Screens === '2'">two external screens</span>
+                                <span *ngIf="Assessment.Scenario.Screens === '3'">three external screens</span>
+                                <span *ngIf="Assessment.Scenario.Screens === '4+'">multiple external screens</span> while at their desks.
+                            </li>
+                            <li>Your employees spend {{Assessment.Scenario.MobileDevice}} of their time away from their desks. They can stay productive during that time.</li>
+                            <li *ngIf="Assessment.Scenario.Share === 'Yes'">Simplify the process for authenticating multiple users on one device by using premium biometric authentication.</li>
+                            <li *ngIf="Assessment.Scenario.Devices === 'Yes'">Eliminate the need to use multiple devices by relying on one device that can handle all tasks.</li>
+                            <li *ngIf="Assessment.Scenario.PenPaper === 'Yes'">Expand the usage of digital note taking across your organization for more seamless information filing and sharing.</li>
+                            <li *ngIf="Assessment.Scenario.OnTheGo === 'Yes'">Access data without Wi-Fi for true and uncompromised mobile productivity.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 is-aligned-self">
+                    <p class="display--xs">Each device offers its own core competencies. The graph below illustrates how each Surface addresses your current capability gaps.</p>
+                    <radar-graph [Assessment]="Assessment"></radar-graph>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-surface">
+            <div class="container padded-vert2x">
+              <div class="row about--mobile-header display-none--desktop">
+                <div class="col-12">
+                  <h2 class="is-darkest-grey">About {{selectedDevice}}</h2>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <ngx-carousel class="bannerCarousel" [inputs]="carousel">
+                            <ngx-item NgxCarouselItem *ngFor="let img of selectedDeviceImgs; let idx = index;" [ngStyle]="{backgroundImage: 'url(' + img + ')'}">
+                                <img [src]="img" class="img-responsive" alt="Surface Device Image {{idx}}" />
+                            </ngx-item>
+                            <button NgxCarouselPrev class='leftRs btn'><i class="icon-prev o-365-icons white"></i><span style="visibility: hidden">Previous</span></button>
+                            <button NgxCarouselNext class='rightRs btn'><i class="icon-next o-365-icons white"></i><span style="visibility: hidden">Next</span></button>
+                        </ngx-carousel>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="display-none--mobile is-darkest-grey">About {{selectedDevice}}</h2>
+                        <p>{{selectedDeviceCopy?.Description.Heading}}</p>
+                        <p>{{selectedDeviceCopy?.Description.Copy}}</p>
+                        <div class="button-container">
+                            <a [href]="this.selectedDeviceCopy?.WhereToBuyLink" target="_blank">
+                              <button class="btn-blue" type="button" name="button">Shop Now</button>
+                            </a>
+                            <a [href]="this.selectedDeviceCopy?.MarketingLink" target="_blank">
+                              <button class="btn-blue" type="button" name="button">Learn more about this device</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container padded-vert2x" id="capabilities">
+          <div class="row sub-section-header">
+            <div class="col-md-6">
+              <h2>Capability benefits</h2>
+              <p>A modern, premium device brings specific benefits for each technology capabilities for your {{Assessment.Persona.PersonaName}} team.</p>
+            </div>
+          </div>
+            <div class="row">
+                <div class="col-md-6 padded-bottom">
+                    <p [innerHTML]="copy.capMore"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 margin-bottom2x">
+                    <div class="img-box" [ngStyle]="{'background': 'linear-gradient(rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.4)), url(' + Assessment.Persona.img + ') no-repeat center 25%', 'background-size': 'cover'}">
+                        <h3 class="title white aligned--left">{{Assessment.Persona.PersonaName}}</h3>
+                        <i class="icon icon-info white tooltip tooltip--openLeft aligned--right" tabindex="0">
+                            <span class="tooltiptext">{{Assessment.Persona.Description}}</span>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 margin-bottom2x" *ngFor="let cap of Assessment.Capabilities">
+                    <div class="cap-box-lg">
+                        <div class="cap-header" [ngClass]="{'blue': cap.LevelSelected.Level != 3}">
+                            <i class="cap-icon icon" [ngClass]="cap.Icon"></i>
+                            <p class="no-margin">{{cap.CapabilityName}}</p>
+                            <i *ngIf="cap.LevelSelected.Level != 3" class="icon icon-UpLegacy"></i>
+                            <i *ngIf="cap.LevelSelected.Level == 3" class="icon icon-checked blue"></i>
+                            <h1 class="blue semi">{{cap.LevelSelected.Level}}</h1>
+                            <span class="small">Current<br />score</span>
+                        </div>
+
+                        <div class="cap-content">
+                            <p *ngIf="cap.LevelSelected.Level == 1 || cap.LevelSelected.Level == 2" class="padded-vert no-margin semi">{{copy.level1or2}}</p>
+                            <p *ngIf="cap.LevelSelected.Level == 3" class="padded-vert padded-bottom2x padded-bottom2x no-margin semi">{{copy.level3}}</p>
+                            <ul class="list-unstyled">
+                                <li *ngFor="let benefit of cap.LevelSelected.Benefits" class="padded-bottom--small">{{benefit}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container padded-vert2x" id="next">
+          <div class="row sub-section-header">
+            <div class="col-md-6">
+              <h2 class="has-margin-bottom">Next steps</h2>
+            </div>
+          </div>
+            <div class="row">
+                <div class="col-md-4" *ngFor="let next of copy.nextSteps">
+                    <img [src]="next.img" class="img-responsive" alt="{{next.title}}" />
+                    <button (click)="nextLink(next.path)" class="btn-blue btn-blue--white btn-select">{{next.title}}</button>
+                    <p>{{next.desc}}</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>

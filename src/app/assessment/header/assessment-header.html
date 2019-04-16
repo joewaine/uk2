@@ -1,0 +1,13 @@
+<nav class="container padded-bottom" id="assess-nav" role="navigation">
+  <div class="desktop-nav">
+      <ul class="list-unstyled row">
+          <li class="col nav-link"
+              *ngFor="let link of navLinks;
+                  let linkIndex = index"
+              [ngClass]="{'active': link.active, 'visited': link.visited}"
+              (click)="changePage(link.url, link.visited)">
+              {{(linkIndex + 1)}}. {{link.title}}
+          </li>
+      </ul>
+    </div>
+</nav>

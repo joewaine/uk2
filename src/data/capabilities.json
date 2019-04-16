@@ -1,0 +1,1296 @@
+[
+    {
+        "CapabilityName": "Content authoring",
+        "Description": "Create, share, review, and revise documents or other materials related to the job function.",
+        "Icon": "icon icon-content-auth",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic content creation",
+                "Copy": [
+                    "Your team uses familiar Office applications delivered as a service.",
+                    "You create rich documents with productivity applications, and store documents in the cloud for easy access.",
+                    "You stay current with the latest innovations by using non-disruptive, opt-in updates for new features and version upgrades.",
+                    "You maintain a personalized productivity experience with roaming documents and settings across devices."
+                ],
+                "Benefits": [
+                    "Faster delivery of value to your users.",
+                    "Simplified update and deployment process.",
+                    "Consistent employee productivity through working across different devices."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Mobile authoring",
+                "Copy": [
+                    "Your team uses productivity apps across devices to securely access work from anywhere.",
+                    "You work with documents on the go by using mobile apps that provide a consistent and familiar experience across Windows, Android, and iOS devices.",
+                    "You can access documents securely from anywhere by using the cloud."
+                ],
+                "Benefits": [
+                    "Increased employee productivity while out of the office.",
+                    "Increased employee satisfaction because they’re free to work when and where they need to."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Advanced collaborative authoring",
+                "Copy": [
+                    "You use real-time co-authoring to enhance collaboration.",
+                    "You can review documents collaboratively and get feedback directly via in-app communication integration.",
+                    "You can share documents with others inside and outside your organization by using the cloud, and control who can view or edit each file.",
+                    "You exchange ideas and the latest information with team members in one place."
+                ],
+                "Benefits": [
+                    "Reduced time spent collecting team feedback and incorporating it into documents.",
+                    "Improved content quality resulting from a more inclusive and streamlined document collaboration process."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Mail & calendaring",
+        "Description": "Send and receive emails, schedule in-person or virtual meetings, see the presence status of others, and collaborate within your mail client with other team members.",
+        "Icon": "o-365-icons icon-cal-clock",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Simple email and calendar",
+                "Copy": [
+                    "You send communications, view calendars, and organize contacts by using Outlook.",
+                    "You can schedule meetings and compare calendar availability through free/busy visibility.",
+                    "You can view email and calendar information across devices."
+                ],
+                "Benefits": [
+                    "Increased productivity because employees are better able to manage increasing volumes of communication from anywhere.",
+                    "Greater control for meeting organizational and regulatory requirements.",
+                    "Increased protection of business communication and sensitive information."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Smarter inbox and email productivity",
+                "Copy": [
+                    "Your team manages email with tools that help them focus on what’s important and work more efficiently, like search and mail-filtering capabilities.",
+                    "You have the ability to filter low-priority email to gain time for important messages."
+                ],
+                "Benefits": [
+                    "Reduced time spent searching and managing email.",
+                    "Increased productivity because employees are focused on priority communications."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Collaborative email",
+                "Copy": [
+                    "Increased employee satisfaction and productivity because employees can use familiar tools to get work done.",
+                    "Improved collaboration because teams can more easily self-organize and work together more effectively."
+                ],
+                "Benefits": [
+                    "Increased employee satisfaction and productivity by enabling them to use familiar tools to get work done.",
+                    "Improved collaboration by helping teams self-organize and work together more effectively."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Communications",
+        "Description": "Easily connect and communicate with virtual users within and outside of your organization. This includes communications through IM, audio, video, and even within documents.",
+        "Icon": "o-365-icons icon-communications",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic IM and presence",
+                "Copy": [
+                    "Your team can connect instantly with coworkers and communicate in real time.",
+                    "You can determine coworker availability.",
+                    "You can learn more about coworkers through contact cards.",
+                    "You can chat in real time with coworkers."
+                ],
+                "Benefits": [
+                    "Increased productivity because of reduced email clutter and fewer delayed responses."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Integrated communications",
+                "Copy": [
+                    "Your teams work together seamlessly by communicating directly from within documents.",
+                    "You can view the presence of team members and IM them directly from within familiar Office applications.",
+                    "You can add audio, video, people, or documents to IM conversations with one click.",
+                    "With one click, you can schedule follow-up virtual meetings that are automatically populated in Outlook."
+                ],
+                "Benefits": [
+                    "Faster decision-making.",
+                    "Better information sharing and reduced time to results."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Extended communications",
+                "Copy": [
+                    "You have broken down organizational boundaries by enabling your organization to more easily communicate with customers, partners, and suppliers.",
+                    "You can connect with virtual users from other organizations by using Federation.",
+                    "You can view presence information and communicate with federated contacts by using IM, audio calls, and video calls."
+                ],
+                "Benefits": [
+                    "Improved collaboration with external stakeholders."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Collaboration",
+        "Description": "Easily and quickly find people and information within the organization. Break down information siloes.",
+        "Icon": "icon-PeopleLegacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic search",
+                "Copy": [
+                    "Your team can quickly find the information and people they need.",
+                    "You can take action on search results. This includes editing, following, and sharing documents directly from search results.",
+                    "You can connect with experts by using people-search capabilities."
+                ],
+                "Benefits": [
+                    "Increased employee productivity because of reduced time spent searching for information."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Content and people discovery",
+                "Copy": [
+                    "You use search as a discovery mechanism, providing intelligent, proactive, and personalized experiences that help your team members connect with the right information at the right time.",
+                    "You can find colleagues to collaborate with by using people-discovery.",
+                    "You can discover relevant content and insights based on the relationships among content, people, and activities in your organization."
+                ],
+                "Benefits": [
+                    "Increased employee productivity because of reduced time spent searching for information.",
+                    "Improved decisions because of insights surfaced."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Advanced search solutions",
+                "Copy": [
+                    "Your organization has a unified search experience. ",
+                    "Your organization builds custom, search-driven applications that solve the unique information challenges of various teams."
+                ],
+                "Benefits": [
+                    "Increased time to value because of customized search solution."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Enterprise social",
+        "Description": "Interact on one or more business social network platforms with coworkers. Collaborate on projects and tasks.",
+        "Icon": "o-365-icons icon-enterprise-social",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Limited team collaboration ",
+                "Copy": [
+                    "Your employees can easily self-organize into teams to collaborate on projects and tap into knowledge across the organization.",
+                    "You can create public or private groups, invite team members, and upload documents by using familiar social networking features in Yammer.",
+                    "You can write messages, share documents, and collaborate with others by using social group organization capabilities."
+                ],
+                "Benefits": [
+                    "More effective team and project-based collaboration."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Socially connected organization",
+                "Copy": [
+                    "You break down boundaries and connect with peers, experts, and even external partners for projects and topics that are relevant across the company.",
+                    "You facilitate cross-team innovation and expand organizational knowledge through public groups information discovery.",
+                    "You host real-time discussions and advertise them to the organization."
+                ],
+                "Benefits": [
+                    "Improved employee engagement.",
+                    "Better internal collaboration across departments, locations, and time zones.",
+                    "Streamlined collaboration with external partners."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Empowered social insights",
+                "Copy": [
+                    "Your organization has an advanced and integrated social network.",
+                    "You use cross-department communications and video broadcast capabilities to narrow gaps among business groups and hierarchies."
+                ],
+                "Benefits": [
+                    "Improved communication across the organization.",
+                    "Better reach with customers."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Meetings & voice",
+        "Description": "As part of a broader unified communications strategy, provide your teams with the tools they need to easily conduct productive, collaborative in-person or virtual meetings.",
+        "Icon": "o-365-icons icon-users",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic meetings",
+                "Copy": [
+                    "Your team can easily conduct collaborative meetings from virtually anywhere, with voice over IP, HD video, and secure content sharing.",
+                    "You can host or join meetings with one click.",
+                    "You can collaborate on work during meetings with desktop and app sharing and annotation of presentations.",
+                    "You can take notes and share them with meeting participants easily by using social or mail apps."
+                ],
+                "Benefits": [
+                    "Reduced travel costs.",
+                    "Reduced conferencing costs.",
+                    "Increased satisfaction for mobile workers because they have the freedom and flexibility to meet from anywhere."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Enhanced meetings",
+                "Copy": [
+                    "You can set up large meetings and webcasts, and provide flexible meeting dial-in and dial-out options.",
+                    "You can include thousands of employees in meetings and webcasts.",
+                    "Team members can join meetings on any phone or device."
+                ],
+                "Benefits": [
+                    "Expanded reach of messaging to thousands of constituents.",
+                    "Simplified management, with one meeting solution and a single vendor, bill, and support channel.",
+                    "Increased productivity because of diverse meeting-join options for attendees."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Advanced voice",
+                "Copy": [
+                    "Your employees and IT team have access to phone capabilities.",
+                    "You can make, receive, and transfer business calls in the office, at home, or on the road by using phones, PCs, and other devices.",
+                    "You have call hold, voice mail, and call forwarding.",
+                    "Your technologies interoperate with existing telephony assets, and you have a plan for replacing separate PBX systems over time."
+                ],
+                "Benefits": [
+                    "Increased agility and consolidated management because of integration of voice productivity for tasks like email and document management.",
+                    "Reduced costs because of the elimination of separate phone systems over time."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Advanced security & compliance",
+        "Description": "Manage your employees’ work and data to keep it protected from external threats and compliant with governing entities.",
+        "Icon": "icon-LockLegacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Baseline security",
+                "Copy": [
+                    "Your organization mitigates threats with a defense-in-depth approach for enterprise-grade physical, logical, and data security.",
+                    "You’re able to protect against spam and malware while maintaining access to email."
+                ],
+                "Benefits": [
+                    "Increased protection from malicious threats."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Information protection",
+                "Copy": [
+                    "Your organization uses data-loss prevention capabilities to keep intellectual property from being exposed.",
+                    "Content owners can secure sensitive information when sharing it with others by creating policies that restrict what actions specific people can take on email, SharePoint Online libraries, documents, and other file types.",
+                    "Your organization uses at-rest and in-transit encryption to protect against unauthorized access to sensitive information.",
+                    "Your organization manages data across all devices with device management capabilities, conditional access, and selective data wipe (in the event of device loss or an employee departure)."
+                ],
+                "Benefits": [
+                    "Reduced risk of exposing sensitive information.",
+                    "Improved management of data on mobile devices."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Comprehensive compliance",
+                "Copy": [
+                    "All compliance-related tasks and policies are managed centrally.",
+                    "Email and document lifecycle is managed via retention capabilities that ensure required content is retained and non-critical content is discarded.",
+                    "Mailbox archiving is used to meet message retention, e-discovery, and hold requirements.",
+                    "Document changes are tracked.",
+                    "E-discovery is used to identify, hold, search, and export content found in Exchange mailboxes and SharePoint sites."
+                ],
+                "Benefits": [
+                    "Improved compliance with legal, regulatory, and organizational requirements.",
+                    "Decreased IT time and overhead spent on compliance-related activities.",
+                    "Reduced costs and accelerated processes associated with e-discovery."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Analytics",
+        "Description": "Use software to capture, interpret, analyze, and act on key data and information.",
+        "Icon": "icon-bars",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Personal analytics",
+                "Copy": [
+                    "Tracking and analysis of business data is limited or non-existent.",
+                    "Employees use consumer-grade BI tools and older versions of Excel.",
+                    "Data is siloed, unavailable across business groups, and is not represented visually."
+                ],
+                "Benefits": [
+                    "Faster time to insights.",
+                    "Increased end-user daily productivity.",
+                    "Improved employee satisfaction because they understand their work's impact on the business."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Extended visualizations",
+                "Copy": [
+                    "You track, analyze, and share business data in your teams.",
+                    "Data streams are available to groups across the organization via the cloud, and visual representations are used to make data accessible and digestible.",
+                    "Employees can access touch-first reports across devices and receive alerts to important changes in the data from anywhere.",
+                    "Only a select few employees have access to tools for analyzing data.",
+                    "Employees across the organization have access to real-time insights.",
+                    "Perform forecasting using predictive analytics.",
+                    "Employees can interact with and visualize data to uncover insights and share them via the cloud.",
+                    "Employees use predictive analytics for forecasting."
+                ],
+                "Benefits": [
+                    "Reduced time spent searching for relevant data.",
+                    "Decreased overhead and unforeseen costs because of better forecasting.",
+                    "More informative presentations.",
+                    "Improved presentation and collaboration flexibility in and out of the office."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Champion insights",
+                "Copy": [
+                    "All business data is gathered and uploaded into the cloud to track, analyze, and disseminate findings.",
+                    "Data streams are shared with applicable groups.",
+                    "Machine learning and cloud computing are used to automate particular components of data findings and alert the right employees if certain KPIs are flagged.",
+                    "Scorecards are published to teams and leaders.",
+                    "Powerful self-service tools are used to create analytics spreadsheets and interactive visual reports that are connected to a broad range of internal and external sources.",
+                    "Employees are able to analyze business data as well as data about their own working patterns. All employees have access to data about who they collaborate with the most and how they spend their time.",
+                    "The organization uses insight-driven strategy planning.",
+                    "All of your organization's data is visible in one place, and dashboards enable your teams to discover and take action on business insights in new ways."
+                ],
+                "Benefits": [
+                    "Better decision-making through greater information/source integration.",
+                    "Less time spent parsing and organizing data.",
+                    "Increased reporting accuracy."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Continuum",
+        "Description": "Take advantage of a user interface that can adapt automatically to a situation (For example, a device automatically switches to tablet mode when a keyboard is detached).",
+        "Icon": "icon-SyncLegacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Low usage",
+                "Copy": [
+                    "Continuum-enabled device is used as a second-priority device.",
+                    "Continuum is used occasionally for tasks like demos or checking email.",
+                    "No use or very light use of Continuum for productivity."
+                ],
+                "Benefits": [
+                    "Another level of productivity available for mobile team members.",
+                    "Devices that are light and easy to travel with.",
+                    "Showing off impressive technology capability."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Secondary productivity device",
+                "Copy": [
+                    "Continuum is used moderately for productivity.",
+                    "Organization employs hybrid use of both primary and secondary devices with Continuum enabled, especially based on use cases (like a traveling salesperson) and depending on whether location has Continuum-friendly devices (Bluetooth mouse/keyboard, wired Continuum dock, wireless display adapter)."
+                ],
+                "Benefits": [
+                    "Reduced time spent searching for productive spaces.",
+                    "Easier to travel more freely.",
+                    "Less weight to haul around.",
+                    "Ability to impress customers by running productivity and presentations on truly mobile devices."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "High productivity",
+                "Copy": [
+                    "Heavy use of Continuum for productivity.",
+                    "Constant use of Continuum device to support and create documents, presentations, or email."
+                ],
+                "Benefits": [
+                    "Less time spent worrying about setting up workspaces.",
+                    "True mobility.",
+                    "Wow factor for any client-facing presentation or meeting."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Biometrics",
+        "Description": "Authenticate users via biological characteristics—for example, facial recognition, iris scanners, or fingerprint readers.",
+        "Icon": "icon icon-fingerprint",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "No biometric authentication",
+                "Copy": [
+                    "No use of or capability for biometric authentication for any device or IT-managed process.",
+                    "All authentication is text (keyboard) based.",
+                    "The only biometric use is through employee's personal BOYD devices.",
+                    "Most, if not all, IT-approved hardware is unable to handle biometric data (fingerprint reader, facial recognition, iris scanner)."
+                ],
+                "Benefits": [
+                    "Employees are comfortable with legacy process of authentication (keyboard-input password)."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Single-use authentication",
+                "Copy": [
+                    "Approved devices support authentication for sign-in on the device.",
+                    "Devices managed by IT support only fingerprint readers for biometric authentication."
+                ],
+                "Benefits": [
+                    "Reduced time logging on to machines and authenticating.",
+                    "More secure data.",
+                    "Less likely to forget authentication information.",
+                    "Unified process for IT to manage."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Diverse authentication",
+                "Copy": [
+                    "Biometric authentication is a fully fledged and IT-managed authentication experience for employees across all personal devices and IT-managed productivity devices.",
+                    "All devices support this capability, and IT has invested resources for future roadmap usage.",
+                    "Biometric support includes fingerprint readers, iris scanners, and facial recognition.",
+                    "Apps, programs, and important internal websites can be authenticated via biometric credentials."
+                ],
+                "Benefits": [
+                    "Most secure authentication protocol.",
+                    "Less time and energy spent worrying about lost credentials for login, applications, websites, or documents.",
+                    "Increased productivity time.",
+                    "Always up-to-date with the latest Windows 10 security update.",
+                    "Increased employee satisfaction because of simple authentication process.",
+                    "Employees enabled to sign in how they want to."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Natural language processing",
+        "Description": "More naturally interact with a computer by using voice.",
+        "Icon": "icon-CharactersLegacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic assistants",
+                "Copy": [
+                    "Your organization uses little or no natural language processing for LOB activities (searching, calendaring, task management).",
+                    "Your organization uses little or no proactive/push systems for content and task surfacing.",
+                    "If any natural language processing exists, input methods are text/typing.",
+                    "Natural language processing capability is limited to a single device (if any)."
+                ],
+                "Benefits": [
+                    "Diverse ways of interacting with devices for light tasks or searching."
+
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Light use",
+                "Copy": [
+                    "Your organization incorporates some ad hoc use of natural language processing for searching local or intranet content and ad hoc use of personal assistants for scheduling and coordination.",
+                    "Personal assistant use is limited to personal and task reminders.",
+                    "Your organization uses some proactive/push systems (recent documents, recent collaborators, or activity notifications), but they aren’t centralized or integrated with LOB processes or tools.",
+                    "Input methods are typically text/typing, but are sometimes voice activated.",
+                    "Natural language processing capability is used across work/mobile devices, but is not governed by IT standards."
+                ],
+                "Benefits": [
+                    "Reduced time spent searching for content.",
+                    "More ways to be productive in the LOB.",
+                    "Increased productivity because of hands-free interaction.",
+                    "Increased ROI for employee devices."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Fully integrated digital assistants",
+                "Copy": [
+                    "Natural language processing is a fully functioning route for accessing the organization’s data (documents, calendars, tasks, and project information).",
+                    "Personal assistants align centrally to manage schedules and coordination.",
+                    "Personal assistants actively push personalized notifications and information based on LOB activities and requirements, and this process is governed by IT.",
+                    "Input methods are text and voice.",
+                    "Natural language processing capability is present across all user devices and centrally managed by IT."
+                ],
+                "Benefits": [
+                    "Employee-customized experiences to best fit their habits/processes.",
+                    "Reduced time spent searching for content.",
+                    "More employee productivity time.",
+                    "Reduced risk of missing appointments and meetings or running late.",
+                    "A more interactive, human experience."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Digital ink/pen",
+        "Description": "Write on a device, as you would on paper or on a whiteboard, to more easily share analog thoughts in the digital world.",
+        "Icon": "icon icon-pen-squigl",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "No digital ink devices",
+                "Copy": [
+                    "No devices in the organization support pen input for inking.",
+                    "Devices might include digitizers with touch input that can be used to make inked markings on the screen, but they don’t include pens.",
+                    "In-person collaboration is done on physical whiteboards or projected screens with typed agenda/notes."
+                ],
+                "Benefits": [
+                    "Increased ability to share notes or make revision points virtually.",
+                    "Beginning to bridge the gap between analog and digital."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Single-device support",
+                "Copy": [
+                    "IT supports only one kind of device for pen input.",
+                    "There is no continuity of experience across various devices managed by IT: some devices support touch, some support both touch and pen, and some support neither."
+                ],
+                "Benefits": [
+                    "Increased collaboration during meetings, 1-on-1s, and presentations.",
+                    "Increased personalization.",
+                    "Decreased time for explaining revisions or notes.",
+                    "Increased satisfaction with devices.",
+                    "Increased note-taking capabilities.",
+                    "Better content quality."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Fully integrated digital inking",
+                "Copy": [
+                    "All devices across the organization support pen input. This includes all PCs, tablets, and small mobile devices (including LTE devices).",
+                    "Devices provide limited pen latency and many levels of pressure sensitivity.",
+                    "Employees have a continuous pen experience across all their devices and can share accessories in meetings or on the road.",
+                    "All meeting rooms support digital pen notes with devices like digital whiteboards.",
+                    "All collaborative notes, ideas, or brainstorms can be handwritten, digital, and shared."
+                ],
+                "Benefits": [
+                    "Decreased risk of missed points during virtual presentations and screen sharing.",
+                    "Increased employee satisfaction because they can interact with devices in a familiar way.",
+                    "Faster decision-making.",
+                    "Increased productivity and decreased communication loops.",
+                    "Best note-taking ability.",
+                    "Elimination of need to take a picture of a whiteboard and send it to meeting participants.",
+                    "Best possible content quality."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Input",
+        "Description": "Interact with the operating system and other software on a device in various ways to meet every situation. This could include touch, voice, configurability, and using a keyboard and mouse.",
+        "Icon": "icon-arrow-right",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Keyboard and mouse devices only",
+                "Copy": [
+                    "IT-managed devices support only mouse and keyboard.",
+                    "All collaboration spaces are limited to analog experiences or projectors/TVs.",
+                    "All devices are in a typical laptop or desktop configuration, with no convertibility relationship with the OS to meet various employee use cases.",
+                    "Employees all use devices that support only keyboard and mouse, and touch."
+                ],
+                "Benefits": [
+                    "Uniformity of interactivity across various IT-managed devices."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Mixed devices",
+                "Copy": [
+                    "IT provides diverse devices to support various levels of OS-supported input: some include touch while others don't; some can convert into tablets for content consumption.",
+                    "The experience is not uniform, and many employees use their own devices to enable their preferred input experience for work outside the office (like using an iPad for content consumption and light emails during off hours).",
+                    "A disconnect exists between employees and use cases in terms of the convertibility of devices and input needs."
+                ],
+                "Benefits": [
+                    "Increased personalization when interacting with IT-managed devices.",
+                    "Blurred line between capabilities of IT-managed devices and employee personal devices.",
+                    "Increased productivity because new options meet more employee scenarios and use cases."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Personalized experience",
+                "Copy": [
+                    "Depending on the use case, IT offers various devices with distinct input experiences for all job functions and personas.",
+                    "Touch is included on all devices.",
+                    "Employees can choose from among various devices for the most appropriate input experience for their jobs.",
+                    "Devices include quality microphones for voice input and might support interaction with natural language processing software and assistants, voice notes, VoIP (Skype calls), dictation applications, and other communications.",
+                    "Collaboration spaces include devices that have various input options, including touch, highly tuned microphones, and supported peripherals like keyboards and mouse devices."
+                ],
+                "Benefits": [
+                    "Less resistance to employee preference of input.",
+                    "More personalization.",
+                    "Increased productivity in any use case.",
+                    "Increased employee satisfaction.",
+                    "Improved content quality.",
+                    "Employees more likely to spend more time being productive on their devices."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Security & device management",
+        "Description": "Ensure data privacy and protection for everything your employees do, block malicious code at the hardware and OS level, and use MDM-ready devices.",
+        "Icon": "icon-shield",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Windows 7 or earlier security features",
+                "Copy": [
+                    "Devices in use are designed for the security requirements of the late 2000s (Windows 7 treats the user as the blocker for modern-day security).",
+                    "Even if the IT department has invested in newer devices (since 2015), the organization can’t take advantage of the encryption capabilities offered in Windows 10 Enterprise (New devices are TPM 2.0 capable; Windows 7 is not).",
+                    "Windows 7 security doesn’t support UEFI (Unified Extensible Firmware Interface), and, even with new devices, the organization is subject to state-sponsored corporate espionage or data hacking."
+                ],
+                "ExtendedCopy": {
+                    "Header": "Capabilities outline includes the following:",
+                    "CopyItems": [
+                        {
+                            "Header": "Device protection",
+                            "Copy": [
+                                "Device protection",
+                                "Windows Update",
+                                "Trusted Platform Module"
+                            ]
+                        },
+                        {
+                            "Header": "Threat resistance",
+                            "Copy": [
+                                "Windows Firewall",
+                                "SmartScreen"
+                            ]
+                        },
+                        {
+                            "Header": "Identity protection",
+                            "Copy": []
+                        },
+                        {
+                            "Header": "Information protection (encryption):",
+                            "Copy": [
+                                "BitLocker Administration and Monitoring",
+                                "BitLocker",
+                                "BitLocker to Go",
+                                "(BitLocker is no long really secure here and is less secure than it could be because it's based on Sha 1)",
+                                "TPM 2.0 (modern devices) is based on Sha 256 or greater",
+                                "Sha 256 is soldered on the motherboard"
+                            ]
+                        },
+                        {
+                            "Header": "Breach detection investigation and response",
+                            "Copy": []
+                        }
+                    ]
+                },
+                "Benefits": [
+                    "Secure for late 2000's standards."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Windows 10 security on older devices",
+                "Copy": [
+                    "Older  devices are in use that can’t take advantage of some Windows 10 security features when legacy hardware (Skylake 6th-generation Intel processor) is used. SHA-256 encryption can’t be used on these devices.",
+                    "These devices can’t take advantage of the new TPM 2.0 standard that’s on the motherboard of new devices (which ensures modern device encryption and security, even from state-sponsored hacking).",
+                    "These devices don’t support Windows Hello (especially facial recognition)."
+                ],
+                "ExtendedCopy": {
+                    "Header": "Capabilities outline includes the following:",
+                    "CopyItems": [
+                        {
+                            "Header": "Device protection",
+                            "Copy": [
+                                "Windows Trusted Boot",
+                                "Windows Update",
+                                "Trusted Platform Module"
+                            ]
+                        },
+                        {
+                            "Header": "Threat resistance",
+                            "Copy": [
+                                "Windows Defender",
+                                "Microsoft Edge",
+                                "Windows Firewall",
+                                "SmartScreen"
+                            ]
+                        },
+                        {
+                            "Header": "Identity protection",
+                            "Copy": [
+                                "Windows Hello (but no integrated experience such as facial recognition, only fingerprint reader)",
+                                "Companion devices (Intel RealSense camera)",
+                                "Windows Hello"
+                            ]
+                        },
+                        {
+                            "Header": "Information protection",
+                            "Copy": [
+                                "Windows Information Protection",
+                                "BitLocker Administration and Monitoring",
+                                "BitLocker",
+                                "BitLocker to Go"
+                            ]
+                        },
+                        {
+                            "Header": "Breach detection investigation and response",
+                            "Copy": [
+                                "Windows Defender Advanced Threat Protection."
+                            ]
+                        }
+                    ]
+                },
+                "Benefits": [
+                    "Increased security across devices, applications, and OS.",
+                    "Always up-to-date.",
+                    "Limited resources dedicated to security patching.",
+                    "Increased productivity with standardized authentication.",
+                    "Less vulnerability to hacking."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Windows 10 security on modern devices",
+                "Copy": [
+                    "Modern devices  supporting Windows 10 security are being used. This provides the forefront of enterprise security.  The capabilities of software and hardware work together to offer the most secure experience for your company.",
+                    "Modern devices—like all Surface devices—support TPM 2.0 (rather than TPM 1.0).",
+                    "Security is intrinsic to the experience, and Windows 10 is all about protecting data—especially for modern times and organizations that use modern devices.",
+                    "Nothing is on the device, and everything is encrypted.",
+                    "The loss of a device isn’t a liability because data isn’t local on the device.",
+                    "IT can hand an employee a new device and—within minutes of booting up the device—all data, settings, and personalization are refreshed through the cloud.",
+                    "New hardware (since 2015) supports TPM 2.0 and SHA-256 encryption.",
+                    "Surface Enterprise Management Mode (SEMM) is available only on Surface hardware. It enables IT to manage devices at the UEFI level, configuring which capabilities work on which devices. For example, IT could disable or enable any device's cameras, USB ports, Bluetooth, or external monitors if the operating system is unaware that the hardware exists. This is another level of security (pre-boot protection) added to the powerful security capabilities of Windows 10."
+                ],
+                "ExtendedCopy": {
+                    "Header": "Capabilities outline includes the following:",
+                    "CopyItems": [
+                        {
+                            "Header": "Device protection",
+                            "Copy": [
+                                "Virtualization Based Security",
+                                "UEFI Secure Boot",
+                                "Windows Trusted Boot",
+                                "Windows Update",
+                                "Trusted Platform Module"
+                            ]
+                        },
+                        {
+                            "Header": "Threat resistance",
+                            "Copy": [
+                                "Device Guard",
+                                "Windows Defender",
+                                "Microsoft Edge",
+                                "Windows Firewall",
+                                "SmartScreen"
+                            ]
+                        },
+                        {
+                            "Header": "Identity protection",
+                            "Copy": [
+                                "Credential Guard",
+                                "Windows Hello companion devices",
+                                "Windows Hello"
+                            ]
+                        },
+                        {
+                            "Header": "Information protection",
+                            "Copy": [
+                                "Device Encryption.",
+                                "Windows Information Protection.",
+                                "BitLocker Admin and Monitoring.",
+                                "BitLocker.",
+                                "BitLocker to Go."
+                            ]
+                        },
+                        {
+                            "Header": "Breach detection investigation and response",
+                            "Copy": [
+                                "Security management.",
+                                "Conditional access.",
+                                "Windows Defender Advanced Threat Protection."
+                            ]
+                        }
+                    ]
+                },
+                "Benefits": [
+                    "Increased security across software and hardware.",
+                    "Decreased dedicated security budgets.",
+                    "Fewer IT resources dedicated to manually updating security protocol or hardware loopholes.",
+                    "Decreased risk of strongest state-sponsored hacking.",
+                    "Multidimensional and future-proofed security."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Portability",
+        "Description": "The physical element of mobility. This entails the size, weight, and dimensions of a device. A more portable device is a device that’s easier to move.",
+        "Icon": "icon-portability",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Poor portability",
+                "Copy": [
+                    "Devices are heavy, bulky, and don’t feel good in the hand or when carried (for example, a desktop PC).",
+                    "Devices are large and better suited to being used on a desk.",
+                    "Screens might not have high brightness (nits) and are not suited for outdoor viewing.",
+                    "Screen is too large to fit in a bag or pocket.",
+                    "It’s hard to be productive, author content, or email on the go.",
+                    "Devices are not suitable for single-hand use."
+                ],
+                "Benefits": [
+                    "Increased productivity for in-office use."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Portable for most uses",
+                "Copy": [
+                    "Devices are mid-sized, of moderate thickness, and lightweight for their size.",
+                    "Devices are somewhat suitable for being carried from place to place.",
+                    "Screens are moderately bright, somewhat suitable for outdoor viewing.",
+                    "Devices fit into a bag and don’t create much inconvenience while traveling, but they don’t fit into a pocket.",
+                    "Devices are easy to use on the go in various spaces (lap, desk, table, floor, airplane tray table).",
+                    "Devices are difficult to use in one hand."
+                ],
+                "Benefits": [
+                    "Increased versatility.",
+                    "Increased productivity for employees on the go.",
+                    "Easier to move around.",
+                    "Increased employee satisfaction."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Ultra portable",
+                "Copy": [
+                    "Device are very thin and light and ultra-portable.",
+                    "Devices can easily be carried and fit into a bag or pocket.",
+                    "Screens can be very bright for viewing outdoors and on the go.",
+                    "Built with portability in mind, the devices can be used anywhere without the location hampering user productivity.",
+                    "Devices are typically easy to hold and use in one hand.",
+                    "LTE is usually an important component, so users can communicate via the device without Wi-Fi."
+                ],
+                "Benefits": [
+                    "Reduced space required when traveling.",
+                    "Increased agility in the ROB, especially for mobile employees.",
+                    "No difference in productivity when in or out of the office."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Computing power",
+        "Description": "The more power a device has, the more processing and information it can handle. Consider your employees’ needs for a CPU, a GPU, RAM, and so on.",
+        "Icon": "icon-lightning",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Under-powered",
+                "Copy": [
+                    "Your organization uses low-power chipsets that can handle light multitasking and are best used in mobile devices.",
+                    "Your team’s devices can handle lighter tasks well in basic OS and Office 365 productivity scenarios.",
+                    "These devices produce less heat and have longer battery life."
+                ],
+                "Benefits": [
+                    "Longer battery life.",
+                    "Low heat output."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Well-rounded power",
+                "Copy": [
+                    "Your team’s devices can handle almost all workloads, with the exception of heavy video and photo editing and complex 3D modeling.",
+                    "Consuming more power than their ARM and Atom counterparts, these chipsets require cooling fans and larger batteries and are best suited for medium to large form factors.",
+                    "Battery life is not greatly affected by this power option."
+                ],
+                "Benefits": [
+                    "Increased LOB capabilities and productivity.",
+                    "Decreased risk of lacking power requirements.",
+                    "Faster processing times.",
+                    "Decreased idle time for loading or running applications."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Power users",
+                "Copy": [
+                    "Your organization uses most powerful computing hardware.",
+                    "Your devices enable multitasking with various high-intensity programs, multiple windows, web browsers, and applications all running at once without any lag.",
+                    "This power option is best suited for heavy-load tasks like 3D modeling and heavy video and photo editing.",
+                    "This option consumes high power and generates large amounts of heat, so it requires more onboard cooling.",
+                    "These devices can handle any task."
+                ],
+                "Benefits": [
+                    "Increased productivity.",
+                    "Decreased idle times.",
+                    "No risk of device not supporting capabilities required for LOB workflow.",
+                    "Fastest possible processing times.",
+                    "Drastically decreased LOB idle time."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Interactivity",
+        "Description": "The various ways users can interact with the device. This could mean using a pen, touching the screen, using a keyboard and mouse, or interacting through built-in sensors.",
+        "Icon": "icon-interactivity",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Limited",
+                "Copy": [
+                    "Your IT-managed devices are basic, with only a singular mode of interaction, like trackpad and keyboard only or touch only.",
+                    "Your devices are limited to one form factor and not best suited for in-person collaboration.",
+                    "No sensors on any device can detect when the device is in a different configuration.",
+                    "Your devices have limited or no compatibility with accessories on-premises, such as monitors, projectors, and screens.",
+                    "Your trackpads are small, are not glass, and don’t support multitouch gestures.",
+                    "The keys on your keyboards are loud, not spaced, and poor for travel."
+                ],
+                "Benefits": [
+                    "Less employee confusion."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Moderate interaction",
+                "Copy": [
+                    "Your devices are diverse, and some employees have interactive components like pen input, sensors to determine when the device is in a different configuration, and touch.",
+                    "Some devices are physically convertible, but some are not.",
+                    "Across your organization, there’s no cohesive experience in terms of your devices’ interactive capabilities.",
+                    "During meetings, efficiency or time might be affected by your devices’ limited interaction capabilities."
+                ],
+                "Benefits": [
+                    "Increased productivity and employee satisfaction.",
+                    "Clearer meetings and better collaboration.",
+                    "Better employee focus."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Comprehensive interaction",
+                "Copy": [
+                    "All supported IT devices share a uniform and mature level of interactivity.",
+                    "Every device can physically convert for every interaction and scenario as needed. For example, devices can convert to a tablet configuration for brainstorming notes or reading a report or to a laptop configuration for heavy writing.",
+                    "Your devices might have different form factors or manufacturers, but every device includes the same interaction points (All are touch enabled, all can be used with a digital pen, and all can convert to a tablet).",
+                    "Employees can share devices or go from one device to another without changing their interaction preferences, so rhythm of business is increased.",
+                    "All devices can connect to and interact with every IT-supported accessory and screen on-premises.",
+                    "Your trackpads are glass, large enough to support all gestures, and tuned with Microsoft for precision.",
+                    "Keys on your keyboards are quiet, spaced, and optimal for travel."
+                ],
+                "Benefits": [
+                    "Best available in-person or virtual collaboration experience.",
+                    "Increased employee satisfaction.",
+                    "Increased culture of productivity.",
+                    "Faster ROB."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Batteries",
+        "Description": "The quality of the battery experience for your employees, if batteries are relevant for them. This can include battery life per day and battery distribution in the device for balanced weight.",
+        "Icon": "icon-battery-75",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Limited battery",
+                "Copy": [
+                    "Very limited batteries or no batteries on devices."
+                ],
+                "Benefits": [
+                    "Battery life is not a business concern."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Batteries",
+                "Copy": [
+                    "Batteries meet the expected battery life for the type of device.",
+                    "There are more battery cycles per year, which lessens the battery life.",
+                    "Batteries aren’t evenly distributed within devices."
+                ],
+                "Benefits": [
+                    "More battery life.",
+                    "Mobile productivity."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Premier power supply",
+                "Copy": [
+                    "Fewer battery cycles per year, which leads to a longer battery lifespan for devices.",
+                    "Batteries within devices are evenly distributed for a balanced feel.",
+                    "Batteries are thin, enabling devices to be thin.",
+                    "The best materials are used in the manufacture of batteries."
+                ],
+                "Benefits": [
+                    "Longer battery life.",
+                    "Battery life not an employee concern.",
+                    "Better device feel.",
+                    "Longer device lifespan to free up IT budget for other resources."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Extensibility",
+        "Description": "The ability of the device to interact with peripheral devices and accessories. This includes the process for connecting to monitors and projectors, the number of and types of ports on the device, docking solutions, ruggedness, and “wipe-ability.”",
+        "Icon": "icon-puzzle",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Limited ports",
+                "Copy": [
+                    "Your devices have limited port options, so employees need to use dongles to attach peripherals to their devices.",
+                    "Typically, devices in this level have just one or two USB type A ports.",
+                    "Your devices don’t have a strong accessory ecosystem that they can interact with.",
+                    "Your docking solutions are either non-existent or limited to a USB hub.",
+                    "Your devices are not rugged and there is no availability of rugged accessories."
+                ],
+                "Benefits": [
+                    "Simple process.",
+                    "Low learning curve."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Multiport",
+                "Copy": [
+                    "Your devices have multiple types of ports, and employees are much less likely to need dongles.",
+                    "There are more accessories available for your devices to connect with.",
+                    "You have access to both proprietary docking solutions and solutions that use a USB hub.",
+                    "Your devices include Bluetooth for wireless connection with accessories."
+                ],
+                "Benefits": [
+                    "Increased productivity.",
+                    "Decreased risk of forgetting compatibility accessories.",
+                    "Faster collaboration and ROB processes."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Seamless connections",
+                "Copy": [
+                    "Your devices have multiple types of ports, including USB type A and at least a Mini DisplayPort, HDMI, or (mini) SD card slot.",
+                    "A healthy accessories ecosystem is specifically built for your devices for multiple-use cases, stands, protection screens, digital pens, or card readers.",
+                    "Bluetooth is standard on your devices, and you have the most recent implementation.",
+                    "You have access to proprietary and USB-hub docking solutions, and they support multiple 4K monitors."
+                ],
+                "Benefits": [
+                    "Fastest ROB.",
+                    "Seamless connection to collaboration accessories.",
+                    "Increased employee satisfaction.",
+                    "Decreased risk of incompatibility.",
+                    "Impressed customers."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Camera, video & microphone",
+        "Description": "The supporting hardware for the communication experience. This includes the quality and sharpness of photos, as well as video and audio calling.",
+        "Icon": "icon-RotateCameraLegacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Low quality ",
+                "Copy": [
+                    "Your cameras are lower than HD quality (480p), so they perform poorly in low light.",
+                    "Your devices don’t have optical image stabilization (OIS).",
+                    "Your devices don’t have front-facing cameras.",
+                    "Your video is low resolution, producing grainy video chat and recordings.",
+                    "Your microphones are low quality and can’t pick up both high and low noise levels, and they don’t include any ambient noise cancellation technology.",
+                    "Your microphones aren’t tested or tuned during manufacturing and don’t work well when there’s ambient noise."
+                ],
+                "Benefits": [
+                    "No legacy employee learning curve.",
+                    "Simple, cheap devices."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Middle tier",
+                "Copy": [
+                    "Your cameras are fast and able to capture HD-quality images and videos.",
+                    "OIS might be present in either your hardware or your camera software.",
+                    "Your cameras have moderate low-light performance.",
+                    "Your devices include both front-facing and rear-facing cameras.",
+                    "Your front-facing cameras are of lower quality (480p), with poor color representation and some graininess, especially in low light conditions.",
+                    "Your microphones are of moderate quality and filter out some ambient noise during calls."
+                ],
+                "Benefits": [
+                    "Increased virtual collaboration.",
+                    "Decreased risk of communication failure.",
+                    "Increased ROB.",
+                    "Better collaboration."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "High quality",
+                "Copy": [
+                    "Your cameras are clear, fast, and responsive and offer high-quality image capture (over 7 megapixels) and a HDR option.",
+                    "Your devices have OIS for both still shots and videos.",
+                    "Your image captures in low light are best in class.",
+                    "Your front-facing cameras are able to capture HD images with crisp, vibrant color.",
+                    "Your microphones are individually tuned to provide real-life rendition of voices.",
+                    "Your microphones filter out ambient noise in loud areas during calls."
+                ],
+                "Benefits": [
+                    "Seamless virtual collaboration and presentation.",
+                    "Increased productivity.",
+                    "Better mobile workforce.",
+                    "Increased communication capability.",
+                    "Increased customer and employee satisfaction."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Build & design",
+        "Description": "The device’s build and manufacturing quality, the materials used, the design and aesthetics of the device, the balance and weight distribution, and so on.",
+        "Icon": "icon-ShowAllFiles3Legacy",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Cheaper materials",
+                "Copy": [
+                    "Your devices are bland: black, plastic, thick, creaks.",
+                    "There’s no metal on your devices; they’re built out of various plastic pieces.",
+                    "Your keyboards bend when you type or push hard on the keys.",
+                    "Your cooling fans are loud.",
+                    "Your devices are thick, heavy, and unbalanced.",
+                    "Your devices don’t feel good when you carry them.",
+                    "Your devices don’t have LED lighting under the keyboards."
+                ],
+                "Benefits": [
+                    "Less concern about wear and tear."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "Medium build quality",
+                "Copy": [
+                    "Your devices are manufactured according to a specific design language.",
+                    "Your devices incorporate higher-quality build materials (a blend of metal and plastic) with low chance of creaks, and components fit together neatly with no gaps.",
+                    "Your keyboards don’t bend.",
+                    "Your cooling fans are occasionally loud.",
+                    "Your devices are thinner and lighter than cheaper business devices.",
+                    "Your devices are comfortable to carry in one hand.",
+                    "Your devices have LED lighting under the keyboard."
+                ],
+                "Benefits": [
+                    "Increased employee satisfaction.",
+                    "Devices that are more compelling to use.",
+                    "Increased productivity."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Meticulously crafted",
+                "Copy": [
+                    "Your devices are crafted with obvious attention to detail and a design language.",
+                    "Your devices are built entirely out of premium materials, without creaks or bending in the keyboard. They incorporate a unibody design with limited or no seams.",
+                    "Your devices are as thin as possible, with the smallest dimensional footprint possible.",
+                    "Your devices are light and balanced and comfortable to carry around all day.",
+                    "Your devices have LED lighting under the keyboard."
+                ],
+                "Benefits": [
+                    "Increased employee satisfaction.",
+                    "Impressed customers.",
+                    "Devices that are personalized and compelling to use.",
+                    "More employee productivity.",
+                    "Less employee turnover."
+                ]
+            }
+        ]
+    },
+    {
+        "CapabilityName": "Screen",
+        "Description": "The quality of the screen. This includes resolution, color reproduction, viewing angles, brightness, pressure sensitivity, air gap, and bezels. ",
+        "Icon": "icon-screens",
+        "Levels": [
+            {
+                "Level": 1,
+                "Header": "Basic Screen",
+                "Copy": [
+                    "Your screens are not HD.",
+                    "Your devices’ bezels are thick, black, and obvious.",
+                    "Your devices don’t have edge-to-edge glass.",
+                    "Your screens aren’t very bright and are difficult to use in direct sunlight or bright conditions.",
+                    "Color reproduction is not accurate, and not sufficient for creatives or photography.",
+                    "Viewing angles are poor, and colors are distorted when the user isn’t looking directly at the screen.",
+                    "Your screens (if they are touch enabled) can process only one touch interaction at a time.",
+                    "Your screens have limited or no pressure sensitivity for detailed inking with a digital pen or finger.",
+                    "Your screens have a gap between the outer glass and the actual screen."
+                ],
+                "Benefits": [
+                    "Budget friendly."
+                ]
+            },
+            {
+                "Level": 2,
+                "Header": "High-definition screen",
+                "Copy": [
+                    "Your screens are Full HD.",
+                    "Your devices’ bezels are not obvious. Screens might have edge-to-edge glass.",
+                    "Your device screens are usable in bright conditions.",
+                    "Color reproduction is accurate but not professional (Professional creatives would not be able to do their work accurately).",
+                    "Viewing angles from the side are moderate (Colors don’t wash out).",
+                    "Your screens (if they are touch enabled) can process multiple interaction points simultaneously.",
+                    "Your screens offer multiple levels of pressure sensitivity for better touch and inking interaction.",
+                    "Your screens have a noticeable gap between the outer glass and the actual screen (This makes pen use less accurate)."
+                ],
+                "Benefits": [
+                    "Easier on the eyes.",
+                    "Easier to take notes and interact with content digitally.",
+                    "Increased design aesthetics.",
+                    "Better collaboration."
+                ]
+            },
+            {
+                "Level": 3,
+                "Header": "Professional screen",
+                "Copy": [
+                    "Your screens are better than Full HD, with no visible pixels.",
+                    "Your devices’ bezels are thin and don’t detract from the screen experience.",
+                    "Your devices have edge-to-edge glass.",
+                    "Your screens can be dimmed or brightened for use in any light setting.",
+                    "Color reproduction is professional and tuned to real-life color accuracy.",
+                    "Image quality is not affected from any viewing angle.",
+                    "Your screens can process multiple interaction points simultaneously.",
+                    "Your screens offer professional pressure sensitivity.",
+                    "There’s no air gap between the screens and the outer glass."
+                ],
+                "Benefits": [
+                    "Decreased eye fatigue.",
+                    "More enjoyable to use, leading to higher employee satisfaction.",
+                    "Increased productivity.",
+                    "Increased collaboration.",
+                    "Better multitasking experience."
+                ]
+            }
+        ]
+    }
+]

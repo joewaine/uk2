@@ -1,0 +1,13 @@
+﻿{
+  "CompanyType": [
+    "B2C (serving primarily consumers)",
+    "B2B (serving primarily businesses) ",
+    "Consulting Services",
+    "Education",
+    "ISV (Independent Software Vendor)",
+    "Marketing Agency",
+    "Non-Profit",
+    "Reseller",
+    "Others"
+  ]
+}

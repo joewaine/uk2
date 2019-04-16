@@ -1,0 +1,37 @@
+{
+    "Banner": {
+        "header": "See how Microsoft Surface brings<br />modern mobility to your organization",
+        "desc": "Assess where your team is in its mobile journey, improve your worker’s capabilities, and unlock the unique mobility experiences enabled by Surface."
+    },
+    "WelcomeGrid": [
+        {
+            "title": "Unlock mobility components",
+            "content": "Recognize the different components and tasks that go into your group’s mobility.",
+            "img": "../../src/assets/welcome/mobility-component.jpg"
+        },
+        {
+            "title": "Assess your team",
+            "content": "Evaluate where your organization ranks on the mobility spectrum to better plan for the future. ",
+            "img": "../../src/assets/welcome/assess-team.jpg"
+        },
+        {
+            "title": "Modernize",
+            "content": "See how a modern workplace with premium devices improves maturity and boosts productivity.",
+            "img": "../../src/assets/welcome/modernize.jpg"
+        }
+    ],
+    "MobilitySummary": {
+        "title": "A modern device for every team’s needs",
+        "content": "People aren’t just using one device anymore. They’re selecting the right device for their needs and for any given moment. How your employees work is as important as what they’re doing. They need seamless transitions from one workspace to another, from one device to another, and from working individually to working in a group. Innovative, premium devices like Surface can increase productivity, inspire ideas, accelerate progress, and serve as a catalyst to transform the way your team works. Whether you’re a graphic designer sketching a new prototype at your desk or a traveling salesperson working on the go, your device experiences should conform to your needs, not the other way around."
+    },
+    "AssessmentSummary": {
+        "title": "How the Modern Device Assessment works",
+        "content": "Like our devices, the Modern Device Assessment is focused on the user. The assessment helps you bring together the relevant scenarios and technology capabilities for a selected team member, asks you to select your current maturity levels for the specified capabilities, and then generates your modern device score and device recommendation."
+    },
+    "ResultsSummary": {
+        "title": "What you'll learn",
+        "content": "The Modern Device Assessment will determine which technology capabilities are most relevant for your team, how your team ranks for each capability, and how your team ranks in the overall modern device journey. In addition to getting these rankings, you’ll see which Surface device is best suited to help your team modernize effectiveness.",
+        "buttonText": "Find your score"
+    }
+
+}

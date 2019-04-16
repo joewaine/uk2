@@ -1,0 +1,124 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>5. About yourself</p>
+    <button (click)="prev()" class="btn-chevron btn-chevron--prev pull-right"></button>
+    <button (click)="next()" class="btn-chevron btn-chevron--next pull-right" [disabled]="!profileForm.valid"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+﻿<div class="container" id="profile">
+    <input type="hidden" id="_mkt_trk" name="_mkt_trk" value="" />
+
+    <form (ngSubmit)="onSubmit()" #profileForm="ngForm">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 col-lg-6">
+                <h1 [innerHTML]="copy.title"></h1>
+                <p>{{copy.content}}</p>
+                <p class="disclaimer">All fields are mandatory.</p>
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <i class="icon icon-user"></i>
+                    <input name="FirstName" [(ngModel)]="Assessment.Profile.FirstName" type="text" id="FirstName" placeholder="Type your first name here" required minlength="2" />
+                    <span class="check"></span>
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <i class="icon icon-user"></i>
+                    <input name="LastName" [(ngModel)]="Assessment.Profile.LastName" type="text" id="LastName" placeholder="Type your last name here" required minlength="2" />
+                    <span class="check"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <i class="icon icon-ReadLegacy"></i>
+                    <input name="Email" [(ngModel)]="Assessment.Profile.Email" email type="email" id="Email" placeholder="Type your email here" required />
+                    <span class="check"></span>
+                </div>
+                <div class="form-group">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <i class="icon icon-PhoneLegacy"></i>
+                    <input name="PhoneNumber" [(ngModel)]="Assessment.Profile.PhoneNumber" (keypress)="numbersOnly($event)" type="text" pattern="\d*" minlength="8" id="PhoneNumber" placeholder="Type your phone number here" required />
+                    <span class="check"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Country">Country</label>
+                    <i class="icon icon-WorldLegacy"></i>
+                    <select name="Country" [(ngModel)]="Assessment.Profile.Country" required>
+                        <option [ngValue]="undefined">Select Your Country</option>
+                        <option *ngFor="let country of countriesMarketo" [ngValue]="country">{{country.CountryName}}</option>
+                    </select>
+                    <span class="check"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="CompanyName">Company Name</label>
+                    <i class="icon icon-pin-map"></i>
+                    <input name="CompanyName" [(ngModel)]="Assessment.Profile.CompanyName" type="text" id="CompanyName" placeholder="Type your company here" required />
+                    <span class="check"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Size">Company Size</label>
+                    <i class="icon icon-resize"></i>
+                    <select name="CompanySize" [(ngModel)]="Assessment.Profile.CompanySize" required>
+                        <option [ngValue]="undefined">Select Company Size</option>
+                        <option *ngFor="let size of companySize.CompanySize" [ngValue]="size">{{size}}</option>
+                    </select>
+                    <span class="check"></span>
+                </div>
+                <!--<div class="form-group">
+                    <label for="Size">Company Type</label>
+                    <i class="icon icon-chart"></i>
+                    <select name="CompanyType" [(ngModel)]="Assessment.Profile.CompanyType" required>
+                        <option [ngValue]="undefined">Select Company Type</option>
+                        <option *ngFor="let type of companyType.CompanyType" [ngValue]="type">{{type}}</option>
+                    </select>
+                    <span class="check"></span>
+                </div>-->
+
+                <!--<div class="form-group">
+                    <label for="Industry">Industry</label>
+                    <i class="icon icon-basket"></i>
+                    <select name="Industry" [(ngModel)]="Assessment.Profile.Industry" required>
+                        <option [ngValue]="undefined">Select Industry</option>
+                        <option *ngFor="let industry of industries.Industries" [ngValue]="industry">{{industry}}</option>
+                    </select>
+                    <span class="check"></span>
+                </div>-->
+                <div class="form-group">
+                    <label for="Title">Job Title</label>
+                    <i class="icon icon-job-title"></i>
+                    <input name="Title" [(ngModel)]="Assessment.Profile.Title" type="text" id="Title" placeholder="Type your title here" required />
+                    <span class="check"></span>
+                </div>
+
+                <div *ngIf="Assessment.Profile.Country">
+                    <p>Microsoft may use your contact information to provide updates and special offers about Microsoft products and services. You can unsubscribe at any time. To learn more you can read the <a target="_blank" href="http://go.microsoft.com/fwlink/?LinkId=521839">privacy statement</a>.</p>
+                </div>
+                <div *ngIf="Assessment.Profile.Country && Assessment.Profile.Country.LegalOptions.PrivacyRequired" class="form-group checkboxes">
+                    <input type="checkbox" name="checkboxIsChecked" [(ngModel)]="Assessment.Profile.Country.LegalOptions.isChecked" />
+                    <label for="checkboxIsChecked">Yes</label>
+                    <div *ngIf="Assessment.Profile.Country.CountryName === 'Russia'">
+                        <span><strong>Отправляя эту страницу, я подтверждаю</strong>, что я ознакомился с <a href="https://www.microsoft.com/ru-ru/about/piidatapolicy/privacy.aspx">политикой в отношении обработки персональных данных ООО «Майкрософт Рус»</a> и даю согласие оператору ООО «Майкрософт Рус», находящемуся по адресу Российская Федерация, 121614, г. Москва, ул. Крылатская, д. 17, к.1</span>
+                        <ul>
+                            <li>на обработку (сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу, в том числе трансграничную (распространение, предоставление, доступ), блокирование, удаление, уничтожение с использованием средств автоматизации и без использования таких средств) моих персональных данных</li>
+                            <li>на поручение обработки и/или передачу моих персональных данных третьим лицам</li>
+                            <li>
+                                на раскрытие персональных данных определенному кругу лиц в целях осуществления взаимодействия с потенциальными и существующими клиентами и партнерами. Мои персональные данные, в отношении которых дается данное согласие, включают: ФИО, место работы, должность, контактные данные (номера телефонов (рабочий, мобильный) и факса, адреса электронной почты, почтовый адрес), адрес компании, знание иностранных языков. Я осведомлен, что ООО «Майкрософт Рус» будет обрабатывать данные только в случае если это необходимо для определенной цели и может запросить, чтобы я продлил срок действия своего согласия на обработку по истечении 5 лет с тем, чтобы гарантировать, что оно соответствует моим намерениям. Пожалуйста, прочтите <a href="https://privacy.microsoft.com/ru-ru/privacystatement/">заявление о конфиденциальности корпорации Майкрософт</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 align-self-end">
+                <button class="btn-blue pull-right margin-top2x" type="submit" [disabled]="!profileForm.valid">See your results</button>
+            </div>
+        </div>
+    </form>
+</div>

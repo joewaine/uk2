@@ -1,0 +1,68 @@
+<section class="banner" [ngStyle]="{'background-image': 'url(' + bannerPath + ')'}">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-7">
+                <div class="banner-text">
+                    <h1 class="white" [innerHTML]="banner.header"></h1>
+                    <p class="white">{{banner.desc}}</p>
+                    <button class="btn-blue margin-bottom2x margin-top2x" (click)="newAssessment()">{{resultsSummary.buttonText}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="padded-vert2x">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let grid of welcomeGrid">
+                <img class="img-responsive padded-bottom" [src]="grid.img" alt="{{title}}"/>
+                <h4>{{grid.title}}</h4>
+                <p>{{grid.content}}</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="banner middle" [ngStyle]="{'background-image': 'url(' + middleBannerPath + ')'}"></section>
+
+<section id="mobility-summary" class="container padded-vert2x">
+    <div class="row">
+        <div class="col">
+            <h1 [innerHTML]="mobilitySummary?.title"></h1>
+            <p [innerHtml]="mobilitySummary?.content"></p>
+        </div>
+    </div>
+</section>
+
+<section id="assessmentSummary" class="container padded-bottom2x">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" [src]="assessImgPath" alt="{{assessmentSummary.title}}"/>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="center-vert">
+                <h1>{{assessmentSummary.title}}</h1>
+                <p>{{assessmentSummary.content}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="resultsSummary" class="container padded-bottom2x">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="center-vert">
+                <h1>{{resultsSummary.title}}</h1>
+                <p>{{resultsSummary.content}}</p>
+                <button class="btn-blue margin-bottom2x margin-top2x" (click)="newAssessment()">{{resultsSummary.buttonText}}</button>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <img class="img-responsive" [src]="resultsImgPath" alt="{{resultsSummary.title}}"/>
+        </div>
+    </div>
+</section>

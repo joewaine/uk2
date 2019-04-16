@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5 {
+    line-height: 1.3;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: $segoe-light;
+    font-size: 32px;
+}
+h2{
+    font-family: $segoe-semi;
+    color: $darkest-grey;
+    font-size: 22px;
+}
+h3{
+    font-family: $segoe-light;
+    font-size: 23px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: $segoe-semi;
+}
+h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: $segoe;
+}
+label {
+    font-size: 12px;
+    font-family: $segoe;
+}
+.bold{
+    font-weight: 700;
+}
+
+a, button {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: $segoe-semi;
+}
+
+p {
+  font-size: 14px;
+  font-family: $segoe;
+  font-weight: normal;
+  line-height: 1.35;
+}
+.bold {
+    font-family: $segoe-bold;
+    font-size: 16px;
+}
+.caps{
+    text-transform: uppercase;
+}
+.icon{
+    font-size: 28px;
+    vertical-align: middle;
+    display: inline-block;
+}

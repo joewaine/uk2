@@ -1,0 +1,377 @@
+#profile {
+    padding-bottom: 50px;
+    .form-group {
+        padding: 1em 0;
+        position: relative;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    select {
+        padding: 10px;
+        color: $darkest-grey;
+        width: 100%;
+        border-radius: 0px;
+        padding: 10px;
+        height: 40px;
+        background-color: white;
+        border: 1px solid $grey;
+        @include mq($S) {
+            width: 78%;
+            padding-right: 10px;
+        }
+        @include mq($M) {
+            width: 75%;
+            padding-right: 10px;
+        }
+        &.ng-valid {
+            color: $blue;
+        }
+        &.ng-valid + .check {
+            margin-left: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 39px;
+            right: 20px;
+            @include mq($S) {
+                position: relative;
+                top: 6px;
+                right: auto;
+            }
+        }
+        &:focus {
+            border: 1px solid $blue;
+            outline: none;
+        }
+    }
+    label {
+        padding-bottom: 5px;
+        display: block;
+        color: $dark-grey;
+        margin-left: 0px;
+        @include mq($S) {
+            margin-left: 40px;
+        }
+    }
+    input {
+        width: 100%;
+        display: inline-block;
+        padding: 10px;
+        padding-right: 50px;
+        color: $darkest-grey;
+        border-radius: 0px;
+        border: 1px solid $grey;
+        @include mq($S) {
+            width: 78%;
+            padding-right: 10px;
+        }
+        @include mq($M) {
+            width: 75%;
+            padding-right: 10px;
+        }
+        &.ng-valid {
+            color: $blue;
+        }
+        &.ng-valid + .check {
+            margin-left: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 39px;
+            right: 20px;
+            @include mq($S) {
+                position: relative;
+                top: 6px;
+                right: auto;
+            }
+        }
+        &:focus {
+            border: 1px solid $blue;
+            outline: none;
+        }
+    }
+    .icon {
+        font-size: 28px;
+        width: 27px;
+        margin-right: 10px;
+        vertical-align: middle;
+        color: $dark-grey;
+        display: none;
+        @include mq($S) {
+            display: inline-block;
+        }
+    }
+    .check {
+        margin-left: 5px;
+        display: none;
+    }
+    .checkboxes {
+        label {
+            font-size: 14px;
+            display: inline-block;
+            margin-left: 5px;
+        }
+        input {
+            position: relative;
+            top: 3px;
+            width: auto;
+            margin-left: 5px;
+        }
+    }
+}
+
+.radio-row {
+    width: 85%;
+    display: inline-block;
+
+    @media (max-width: 360px) {
+        width: 80%;
+    }
+
+    .radio-block {
+        position: relative;
+        float: left;
+        text-align: center;
+        @include mq($S) {
+            height: 33px;
+        }
+        &.is-25--desktop {
+            margin-right: 0px;
+            width: 50%;
+            @include mq($S) {
+                width: calc(25% - 10px);
+                margin-right: 10px;
+            }
+            input {
+                width: 100%;
+            }
+            label {
+                width: 100%;
+            }
+            &:first-child {
+                label {
+                    border-right: none;
+                    @include mq($S) {
+                        border-right: 1px solid darken($grey, 10%);
+                    }
+                }
+            }
+            &:nth-child(3) {
+                label {
+                    border-top: none;
+                    border-right: none;
+                    @include mq($S) {
+                        border-top: 1px solid darken($grey, 10%);
+                        border-right: 1px solid darken($grey, 10%);
+                    }
+                }
+            }
+            &:last-child {
+                margin-right: 0px;
+                label {
+                    border-top: none;
+                    @include mq($S) {
+                        border-top: 1px solid darken($grey, 10%);
+                    }
+                }
+            }
+        }
+        &.is-20--desktop {
+            width: 20%;
+            margin-right: 0px;
+            @include mq($S) {
+                width: calc(20% - 10px);
+                margin-right: 10px;
+            }
+            input {
+                width: 100%;
+            }
+            label {
+                width: 100%;
+                border-right: none;
+                @include mq($S) {
+                    border: 1px solid darken($grey, 10%);
+                }
+            }
+            &:last-child {
+                label {
+                    border-right: 1px solid darken($grey, 10%);
+                }
+            }
+        }
+        &.is-50--desktop {
+            width: 50%;
+            margin-right: 0px;
+            @include mq($S) {
+                width: calc(25% - 10px);
+                margin-right: 10px;
+            }
+            input {
+                width: 100%;
+            }
+            label {
+                width: 100%;
+            }
+            &:last-child {
+                label {
+                    border-left: none;
+                    @include mq($S) {
+                        border-left: 1px solid darken($grey, 10%);
+                    }
+                }
+            }
+        }
+    }
+    &--employees {
+        .question {
+            margin-bottom: 1.5em !important;
+            margin-top: 0px !important;
+            @include mq($S) {
+                margin-bottom: .75em !important;
+            }
+        }
+    }
+}
+
+#scenario {
+    i {
+        font-size: 28px;
+        margin-right: 5px;
+        width: 10%;
+        @include mq($S) {
+            width: 8%;
+        }
+    }
+    .check {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .radio-container {
+        position: relative;
+        left: -13%;
+        width: 117%;
+        height: 100%;
+        @include mq($S) {
+            left: auto;
+            width: auto;
+            height: auto;
+        }
+    }
+    .form-container {
+        margin-top: 30px;
+        .form-group {
+            margin-bottom: 1.05em;
+            padding: 15px 15px;
+            @include mq($S) {
+                padding: 0px 15px;
+            }
+            .question {
+                margin-top: 4px;
+            }
+            &:first-of-type {
+                .question {
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+    .pull-right {
+        @include mq($S) {
+            text-align: left;
+        }
+    }
+}
+
+.check {
+    display: inline-block;
+    background: url('./icons/icon-check.svg') no-repeat center center;
+    background-size: contain;
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 0;
+    top: 6px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+    position: absolute;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid darken($grey, 10%);
+    padding: 8px 20px;
+    border-radius: 0;
+    background-color: transparent;
+    @include mq($M) {
+        padding: 8px 40px;
+    }
+    &:hover {
+        @include mq($S) {
+            box-shadow: 4px 4px rgba(0, 120, 212, 0.6) !important;
+            border: 1.5px solid $blue !important;
+        }
+    }
+    &:active {
+        background-color: rgba($blue, 0.5);
+        color: white;
+    }
+}
+
+input[type="radio"]:checked + label {
+    background-color: $blue;
+    border: 1px solid $blue;
+    color: white;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip {
+    width: 0 !important;
+
+    .tooltiptext {
+        display: none;
+        width: 200px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        font-family: $segoe;
+        text-align: left;
+        border: 1px solid $blue;
+        top: 35px;
+        left: -75px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    // Open tooltips to the left on small devices to make sure they don't go past the right side of the viewport
+    &--openLeft .tooltiptext {
+        left: -200px;
+        @include mq($M) {
+            left: -168px;
+        }
+    }
+    // Open center
+    &--openCenter .tooltiptext {
+        left: -165px;
+        @include mq($M) {
+            left: -75px;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        .tooltiptext {
+            display: block;
+        }
+    }
+}

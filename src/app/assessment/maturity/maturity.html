@@ -1,0 +1,66 @@
+<!-- Static Mobile Nav  -->
+<nav class="mobile-nav">
+  <div class="mobile-nav__inner">
+    <p>4. Maturity levels</p>
+    <button (click)="prev()" class="btn-chevron btn-chevron--prev pull-right"></button>
+    <button (click)="next()" class="btn-chevron btn-chevron--next pull-right" [disabled]="levelsSelected < 5"></button>
+    <div class="status-bar">
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div class="is-active"></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</nav>
+<div class="container content" id="maturity">
+
+    <div class="row padded-bottom">
+        <div class="col-xs-12 col-md-6">
+            <h1>{{copy?.title}}</h1>
+            <p>{{copy?.content}}</p>
+            <p>Pick one box for each capability. </p>
+        </div>
+    </div>
+
+    <div class="cap-row padded-bottom" *ngFor="let cap of Assessment.Capabilities; let idx = index">
+        <div class="row">
+            <div class="col header-container">
+                <div class="row-header">
+                    <i class="icon" [ngClass]="cap.Icon"></i>
+                    <h4 class="inline">{{cap.CapabilityName}}</h4>
+                    <i class="icon icon-info tooltip tooltip--openRight" tabindex="0">
+                        <span class="tooltiptext">{{cap.Description}}</span>
+                    </i>
+                </div>
+                <p class="row-description">Choose the level that most accurately describes your persona's capability.</p>
+            </div>
+        </div>
+        <div class="row padded-bottom">
+            <div class="col-xs-12 col-md-4 cap-item" *ngFor="let level of cap.Levels; let idx = index">
+                <div class="cap-level">
+                  <div class="progress-bar">
+                    <div class="progress-bar__inner" [ngClass]="{'is-1': idx == 0, 'is-2': idx == 1, 'is-3': idx == 2}"></div>
+                  </div>
+                  <div class="text-container">
+                    <p class="bold">{{(idx + 1)}}.) {{level.Header}}</p>
+                    <p *ngFor="let paragraph of level.Copy">{{paragraph}}</p>
+                  </div>
+                </div>
+                <button class="btn-white caps btn-select" (click)="selectLevel(cap, level)" [ngClass]="{'checked' : cap.LevelSelected?.Level === level.Level}">
+                    <span *ngIf="cap.LevelSelected?.Level !== level.Level">Select</span>
+                    <i *ngIf="cap.LevelSelected?.Level === level.Level" class="icon icon-checked"></i>
+                </button>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <div class="row padded-bottom2x">
+        <div class="col">
+            <button (click)="next()" class="btn-blue pull-right" [disabled]="levelsSelected < 5">Next</button>
+        </div>
+    </div>
+
+</div>

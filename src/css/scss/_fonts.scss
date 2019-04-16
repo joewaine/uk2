@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Segoe UI Light';
+  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff2') format('woff2'),
+      url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff') format('woff'),
+      url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI Regular';
+  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff2') format('woff2'),
+      url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff') format('woff'),
+      url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff2') format('woff2'),
+        url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff') format('woff'),
+        url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: local("Segoe UI Bold"), url('https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff') format('woff2'),
+        url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff") format("woff"),
+        url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf") format("truetype"),
+        url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.svg#web") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUIMDL2Assets';
+    src: url('./fonts/segmdl2/SEGMDL2.eot') format('embedded-opentype'),
+        url('./fonts/segmdl2/SEGMDL2.ttf') format('truetype'),
+        url('./fonts/segmdl2/SEGMDL2.svg') format('svg'),
+    url('./fonts/segmdl2/SEGMDL2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'office365icons';
+    src: url('./fonts/office365/office365icons.eot') format('embedded-opentype'),
+        url('./fonts/office365/office365icons.ttf') format('truetype'),
+        url('./fonts/office365/office365icons.svg') format('svg'),
+        url('./fonts/office365/office365icons.woff') format('woff');
+}

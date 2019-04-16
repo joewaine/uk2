@@ -1,0 +1,1289 @@
+
+.icon-container {
+    outline: none;
+    display: block;
+    float: left;
+    min-width: 0;
+    min-height: 0;
+    font-size: em(20px);
+    padding: 0;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.icon {
+    font-family: "SegoeUIMDL2Assets";
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &.icon-arrow-right::before {
+        content: "\e9ac";
+    }
+
+    &.icon-computer::before {
+        content: "\ec4e";
+    }
+
+    &.icon-content-auth:before {
+        content: "\e1c2";
+    }
+
+    &.icon-checked::before {
+        content: "\e930";
+    }
+
+    &.icon-cal-clock::before {
+        content: "\ee93";
+    }
+
+    &.icon-pen-tip::before {
+        content: "\edfb";
+    }
+
+    &.icon-shield::before {
+        content: "\e1de";
+    }
+
+    &.icon-puzzle::before {
+        content: "\ea86";
+    }
+
+    &.icon-battery-75::before {
+        content: "\eba7";
+    }
+
+    &.icon-mobile-device::before {
+        content: "\ebc6";
+    }
+
+    &.icon-interactivity::before {
+        content: "\e815";
+    }
+
+    &.icon-pen-squigl::before {
+        content: "\e771";
+    }
+
+    &.icon-lightning::before {
+        content: "\e945";
+    }
+
+    &.icon-portability::before {
+        content: "\ebc3";
+    }
+
+    &.icon-fingerprint::before {
+        content: "\e928";
+    }
+
+
+    &.icon-time::before {
+        content: "\e81c";
+    }
+
+    &.icon-users::before {
+        content: "\e902";
+    }
+
+    &.icon-health::before {
+        content: "\e95e";
+    }
+
+    &.icon-tool::before {
+        content: "\ec7a";
+    }
+
+    &.icon-screens::before {
+        content: "\e7f4";
+    }
+
+    &.icon-pencil::before {
+        content: "\e1c2";
+    }
+
+    &.icon-multiple-devices::before {
+        content: "\e212";
+    }
+
+    &.icon-teacher::before {
+        content: "\e7be";
+    }
+
+    &.icon-bars:before {
+        content: "\E870";
+    }
+    &.icon-IT:before {
+        content: "\ec19";
+    }
+    &.icon-marketing:before {
+        content: "\e209";
+    }
+
+    &.icon-creative:before {
+        content: "\E2B1";
+    }
+
+    &.icon-accept:before {
+        content: "\E001";
+    }
+
+    &.icon-CheckboxFillLegacy:before {
+        content: "\E002";
+    }
+
+    &.icon-CheckboxLegacy:before {
+        content: "\E003";
+    }
+
+    &.icon-CheckboxIndeterminateLegacy:before {
+        content: "\E004";
+    }
+
+    &.icon-CheckboxCompositeReversedLegacy:before {
+        content: "\E005";
+    }
+
+    &.icon-HeartLegacy:before {
+        content: "\E006";
+    }
+
+    &.icon-HeartBrokenLegacy:before {
+        content: "\E007";
+    }
+
+    &.icon-CheckMarkZeroWidthLegacy:before {
+        content: "\E008";
+    }
+
+    &.icon-CheckboxFillZeroWidthLegacy:before {
+        content: "\E009";
+    }
+
+    &.icon-RatingStarFillZeroWidthLegacy:before {
+        content: "\E00A";
+    }
+
+    &.icon-HeartFillZeroWidthLegacy:before {
+        content: "\E00B";
+    }
+
+    &.icon-HeartBrokenZeroWidthLegacy:before {
+        content: "\E00C";
+    }
+
+    &.icon-chevron-ScrollChevronLeftLegacy:before {
+        content: "\E00E";
+    }
+
+    &.icon-chevron-right:before {
+        content: "\E00F";
+    }
+
+    &.icon-ScrollChevronUpLegacy:before {
+        content: "\E010";
+    }
+
+    &.icon-chevron-down:before {
+        content: "\E011";
+    }
+
+    &.icon-ChevronLeft3Legacy:before {
+        content: "\E012";
+    }
+
+    &.icon-ChevronRight3Legacy:before {
+        content: "\E013";
+    }
+
+    &.icon-ChevronUp3Legacy:before {
+        content: "\E014";
+    }
+
+    &.icon-ChevronDown3Legacy:before {
+        content: "\E015";
+    }
+
+    &.icon-ScrollChevronLeftBoldLegacy:before {
+        content: "\E016";
+    }
+
+    &.icon-ScrollChevronRightBoldLegacy:before {
+        content: "\E017";
+    }
+
+    &.icon-ScrollChevronUpBoldLegacy:before {
+        content: "\E018";
+    }
+
+    &.icon-ScrollChevronDownBoldLegacy:before {
+        content: "\E019";
+    }
+
+    &.icon-eye:before {
+        content: "\E052";
+    }
+
+    &.icon-EaseOfAccessLegacy:before {
+        content: "\E07F";
+    }
+
+    &.icon-CheckmarkListviewLegacy:before {
+        content: "\E081";
+    }
+
+    &.icon-RatingStarFillReducedPaddingHTMLLegacy:before {
+        content: "\E082";
+    }
+
+    &.icon-KeyboardStandardLegacy:before {
+        content: "\E087";
+    }
+
+    &.icon-KeyboardSplitLegacy:before {
+        content: "\E08F";
+    }
+
+    &.icon-search-right:before {
+        content: "\E094";
+    }
+
+    &.icon-ChevronLeft1Legacy:before {
+        content: "\E096";
+    }
+
+    &.icon-ChevronRight1Legacy:before {
+        content: "\E097";
+    }
+
+    &.icon-ChevronUp1Legacy:before {
+        content: "\E098";
+    }
+
+    &.icon-ChevronDown1Legacy:before {
+        content: "\E099";
+    }
+
+    &.icon-ChevronLeft2Legacy:before {
+        content: "\E09A";
+    }
+
+    &.icon-ChevronRight2Legacy:before {
+        content: "\E09B";
+    }
+
+    &.icon-chevron-up:before {
+        content: "\E09C";
+    }
+
+    &.icon-chevron-down:before {
+        content: "\E09D";
+    }
+
+    &.icon-ScrollChevronDownLegacy:before {
+        content: "\E09D";
+    }
+
+    &.icon-ChevronLeft4Legacy:before {
+        content: "\E09E";
+    }
+
+    &.icon-ChevronRight4Legacy:before {
+        content: "\E09F";
+    }
+
+    &.icon-ChevronUp4Legacy:before {
+        content: "\E0A0";
+    }
+
+    &.icon-ChevronDown4Legacy:before {
+        content: "\E0A1";
+    }
+
+    &.icon-CheckboxCompositeLegacy:before {
+        content: "\E0A2";
+    }
+
+    &.icon-HeartFillLegacy:before {
+        content: "\E0A5";
+    }
+
+    &.icon-previous:before {
+        content: "\E0A6";
+    }
+
+    &.icon-next:before {
+        content: "\E0AB";
+    }
+
+    &.icon-BackBttnMirroredArrow20Legacy:before {
+        content: "\E0AD";
+    }
+
+    &.icon-arrowHTMLMirroredLegacy:before {
+        content: "\E0AE";
+    }
+
+    &.icon-RatingStarFillLegacy:before {
+        content: "\E0B4";
+    }
+
+    &.icon-RatingStarFillSmallLegacy:before {
+        content: "\E0B5";
+    }
+
+    &.icon-SemanticZoomLegacy:before {
+        content: "\E0B8";
+    }
+
+    &.icon-backBttnArrow20Legacy:before {
+        content: "\E0C4";
+    }
+
+    &.icon-ArrowHTMLLegacy:before {
+        content: "\E0D5";
+    }
+
+    &.icon-ChevronFlipLeftLegacy:before {
+        content: "\E0E2";
+    }
+
+    &.icon-ChevronFlipRightLegacy:before {
+        content: "\E0E3";
+    }
+
+    &.icon-ChevronFlipUpLegacy:before {
+        content: "\E0E4";
+    }
+
+    &.icon-ChevronFlipDownLegacy:before {
+        content: "\E0E5";
+    }
+
+    &.icon-CheckmarkMenuLegacy:before {
+        content: "\E0E7";
+    }
+
+    &.icon-PreviousLegacy:before {
+        content: "\E100";
+    }
+
+    &.icon-NextLegacy:before {
+        content: "\E101";
+    }
+
+    &.icon-PlayLegacy:before {
+        content: "\E102";
+    }
+
+    &.icon-PauseLegacy:before {
+        content: "\E103";
+    }
+
+    &.icon-EditLegacy:before {
+        content: "\E104";
+    }
+
+    &.icon-SaveLegacy:before {
+        content: "\E105";
+    }
+
+    &.icon-ClearLegacy:before {
+        content: "\E106";
+    }
+
+    &.icon-DeleteLegacy:before {
+        content: "\E107";
+    }
+
+    &.icon-RemoveLegacy:before {
+        content: "\E108";
+    }
+
+    &.icon-add:before {
+        content: "\E109";
+    }
+
+    &.icon-close:before {
+        content: "\E10A";
+    }
+
+    &.icon-pin-map:before{
+        content: "\E1C4";
+    }
+
+    &.icon-form-title:before{
+        content: "\EC06";
+    }
+
+    &.icon-job-title:before{
+        content: "\E187";
+    }
+
+    &.icon-form-company:before{
+        content: "\E731";
+    }
+
+    &.icon-chart:before{
+        content: "\eb66";
+    }
+
+    &.icon-AcceptLegacy:before {
+        content: "\E10B";
+    }
+
+    &.icon-MoreLegacy:before {
+        content: "\E10C";
+    }
+
+    &.icon-RedoLegacy:before {
+        content: "\E10D";
+    }
+
+    &.icon-undo-legacy:before {
+        content: "\E10E";
+    }
+
+    &.icon-home:before {
+        content: "\E10F";
+    }
+
+    &.icon-UpLegacy:before {
+        content: "\E110";
+    }
+
+    &.icon-ForwardLegacy:before {
+        content: "\E111";
+    }
+
+    &.icon-back:before {
+        content: "\E112";
+    }
+
+    &.icon-FavoriteLegacy:before {
+        content: "\E113";
+    }
+
+    &.icon-CameraLegacy:before {
+        content: "\E114";
+    }
+
+    &.icon-SettingsLegacy:before {
+        content: "\E115";
+    }
+
+    &.icon-VideoLegacy:before {
+        content: "\E116";
+    }
+
+    &.icon-SyncLegacy:before {
+        content: "\E117";
+    }
+
+    &.icon-import:before {
+        content: "\E118";
+    }
+
+    &.icon-MailLegacy:before {
+        content: "\E119";
+    }
+
+    &.icon-find-legacy:before {
+        content: "\E11A";
+    }
+
+    &.icon-HelpLegacy:before {
+        content: "\E11B";
+    }
+
+    &.icon-UploadLegacy:before {
+        content: "\E11C";
+    }
+
+    &.icon-EmojiLegacy:before {
+        content: "\E11D";
+    }
+
+    &.icon-TwoPageLegacy:before {
+        content: "\E11E";
+    }
+
+    &.icon-LeaveChatLegacy:before {
+        content: "\E11F";
+    }
+
+    &.icon-MailForwardLegacy:before {
+        content: "\E120";
+    }
+
+    &.icon-ClockLegacy:before {
+        content: "\E121";
+    }
+
+    &.icon-SendLegacy:before {
+        content: "\E122";
+    }
+
+    &.icon-CropLegacy:before {
+        content: "\E123";
+    }
+
+    &.icon-RotateCameraLegacy:before {
+        content: "\E124";
+    }
+
+    &.icon-PeopleLegacy:before {
+        content: "\E125";
+    }
+
+    &.icon-ClosePaneLegacy:before {
+        content: "\E126";
+    }
+
+    &.icon-OpenPaneLegacy:before {
+        content: "\E127";
+    }
+
+    &.icon-WorldLegacy:before {
+        content: "\E128";
+    }
+
+    &.icon-FlagLegacy:before {
+        content: "\E129";
+    }
+
+    &.icon-details:before {
+        content: "\E12A";
+    }
+
+    &.icon-GlobeLegacy:before {
+        content: "\E12B";
+    }
+
+    &.icon-TrimLegacy:before {
+        content: "\E12C";
+    }
+
+    &.icon-AttachCameraLegacy:before {
+        content: "\E12D";
+    }
+
+    &.icon-ZoomInLegacy:before {
+        content: "\E12E";
+    }
+
+    &.icon-BookmarksLegacy:before {
+        content: "\E12F";
+    }
+
+    &.icon-DocumentLegacy:before {
+        content: "\E130";
+    }
+
+    &.icon-ProtectedDocumentLegacy:before {
+        content: "\E131";
+    }
+
+    &.icon-PageFillLegacy:before {
+        content: "\E132";
+    }
+
+    &.icon-properties:before {
+        content: "\E133";
+    }
+
+    &.icon-CommentLegacy:before {
+        content: "\E134";
+    }
+
+    &.icon-MailFillLegacy:before {
+        content: "\E135";
+    }
+
+    &.icon-ContactInfoLegacy:before {
+        content: "\E136";
+    }
+
+    &.icon-HangUpLegacy:before {
+        content: "\E137";
+    }
+
+    &.icon-ViewAllLegacy:before {
+        content: "\E138";
+    }
+
+    &.icon-MapPinLegacy:before {
+        content: "\E139";
+    }
+
+    &.icon-PhoneLegacy:before {
+        content: "\E13A";
+    }
+
+    &.icon-VideoChatLegacy:before {
+        content: "\E13B";
+    }
+
+    &.icon-SwitchLegacy:before {
+        content: "\E13C";
+    }
+
+    &.icon-ContactLegacy:before {
+        content: "\E13D";
+    }
+
+    &.icon-RenameLegacy:before {
+        content: "\E13E";
+    }
+
+    &.icon-ExpandTileLegacy:before {
+        content: "\E13F";
+    }
+
+    &.icon-ReduceTileLegacy::before {
+        content: "\E140";
+    }
+
+    &.icon-PinLegacy::before {
+        content: "\E141";
+    }
+
+    &.icon-MusicInfoLegacy::before {
+        content: "\E142";
+    }
+
+    &.icon-go::before {
+        content: "\E143";
+    }
+
+    &.icon-KeyBoardLegacy::before {
+        content: "\E144";
+    }
+
+    &.icon-DockLeftLegacy::before {
+        content: "\E145";
+    }
+
+    &.icon-DockRightLegacy::before {
+        content: "\E146";
+    }
+
+    &.icon-DockBottomLegacy::before {
+        content: "\E147";
+    }
+
+    &.icon-RemoteLegacy::before {
+        content: "\E148";
+    }
+
+    &.icon-RefreshLegacy::before {
+        content: "\E149";
+    }
+
+    &.icon-RotateLegacy::before {
+        content: "\E14A";
+    }
+
+    &.icon-ShuffleLegacy::before {
+        content: "\E14B";
+    }
+
+    &.icon-ListLegacy::before {
+        content: "\E14C";
+    }
+
+    &.icon-ShopLegacy::before {
+        content: "\E14D";
+    }
+
+    &.icon-SelectAllLegacy::before {
+        content: "\E14E";
+    }
+
+    &.icon-OrientationLegacy::before {
+        content: "\E14F";
+    }
+
+    &.icon-ImportLegacy::before {
+        content: "\E150";
+    }
+
+    &.icon-ImportAllLegacy::before {
+        content: "\E151";
+    }
+
+    &.icon-ShowAllFiles3Legacy::before {
+        content: "\E152";
+    }
+
+    &.icon-ShowAllFiles1Legacy::before {
+        content: "\E153";
+    }
+
+    &.icon-ShowAllFilesLegacy::before {
+        content: "\E154";
+    }
+
+    &.icon-BrowsePhotosLegacy::before {
+        content: "\E155";
+    }
+
+    &.icon-WebcamLegacy::before {
+        content: "\E156";
+    }
+
+    &.icon-picture-legacy:before {
+        content: "\E158";
+    }
+
+    &.icon-SaveLocalLegacy::before {
+        content: "\E159";
+    }
+
+    &.icon-CaptionLegacy::before {
+        content: "\E15A";
+    }
+
+    &.icon-StopLegacy::before {
+        content: "\E15B";
+    }
+
+    &.icon-ShowResultsLegacy::before {
+        content: "\E15C";
+    }
+
+    &.icon-VolumeLegacy::before {
+        content: "\E15D";
+    }
+
+    &.icon-RepairLegacy::before {
+        content: "\E15E";
+    }
+
+    &.icon-MessageLegacy::before {
+        content: "\E15F";
+    }
+
+    &.icon-PageLegacy:before {
+        content: "\E160";
+    }
+
+    &.icon-CalendarDayLegacy:before {
+        content: "\E161";
+    }
+
+    &.icon-CalendarWeekLegacy:before {
+        content: "\E162";
+    }
+
+    &.icon-calender:before {
+        content: "\E163";
+    }
+
+    &.icon-CharactersLegacy:before {
+        content: "\E164";
+    }
+
+    &.icon-MailReplyAllLegacy:before {
+        content: "\E165";
+    }
+
+    &.icon-ReadLegacy:before {
+        content: "\E166";
+    }
+
+    &.icon-LinkLegacy:before {
+        content: "\E167";
+    }
+
+    &.icon-AccountsLegacy:before {
+        content: "\E168";
+    }
+
+    &.icon-ShowBccLegacy:before {
+        content: "\E169";
+    }
+
+    &.icon-HideBccLegacy:before {
+        content: "\E16A";
+    }
+
+    &.icon-CutLegacy:before {
+        content: "\E16B";
+    }
+
+    &.icon-AttachLegacy:before {
+        content: "\E16C";
+    }
+
+    &.icon-PasteLegacy:before {
+        content: "\E16D";
+    }
+
+    &.icon-filter:before {
+        content: "\E16E";
+    }
+
+    &.icon-CopyLegacy:before {
+        content: "\E16F";
+    }
+
+    &.icon-Emoji2Legacy:before {
+        content: "\E170";
+    }
+
+    &.icon-info-171:before {
+        content: "\E171";
+    }
+
+    &.icon-MailReplyLegacy:before {
+        content: "\E172";
+    }
+
+    &.icon-SlideshowLegacy:before {
+        content: "\E173";
+    }
+
+    &.icon-SortLegacy:before {
+        content: "\E174";
+    }
+
+    &.icon-ListLegacyMirrored:before {
+        content: "\E175";
+    }
+
+    &.icon-ExpandTileLegacyMirrored:before {
+        content: "\E176";
+    }
+
+    &.icon-ReduceTileLegacyMirrored:before {
+        content: "\E177";
+    }
+
+    &.icon-ManageLegacy:before {
+        content: "\E178";
+    }
+
+    &.icon-AllAppsLegacy:before {
+        content: "\E179";
+    }
+
+    &.icon-pipe-health:before {
+        content: "\E17A";
+    }
+
+    &.icon-pipe:before {
+        content: "\E17B";
+    }
+
+    &.icon-NewWindowLegacy:before {
+        content: "\E17C";
+    }
+
+    &.icon-OpenWithLegacy:before {
+        content: "\E17D";
+    }
+
+    &.icon-notification:before {
+        content: "\E91C";
+    }
+
+    &.icon-cancel:before {
+        content: "\E711";
+    }
+
+    &.icon-thumbs-up:before {
+        content: "\E19F";
+    }
+
+    &.icon-hamburger:before {
+        content: "\E700";
+    }
+
+    &.icon-search:before {
+        content: "\E1A3";
+    }
+
+    &.icon-user:before {
+        content: "\E2AF";
+    }
+
+    &.icon-settings:before {
+        content: "\E713";
+    }
+
+    &.icon-asterik:before {
+        content: "\EA21";
+    }
+
+    &.icon-copy:before {
+        content: "\E8C8";
+    }
+
+    &.icon-sync:before {
+        content: "\E895";
+    }
+
+    &.icon-MailForward:before {
+        content: "\E89C";
+    }
+
+    &.icon-more:before {
+        content: "\E712";
+    }
+
+    &.icon-accept-8fb:before {
+        content: "\E8FB";
+    }
+
+    &.icon-alert-7ba:before {
+        content: "\E7BA";
+    }
+
+    &.icon-star:before {
+        content: "\E1CE";
+    }
+
+    &.icon-star-filled:before {
+        content: "\E1CF";
+    }
+
+    &.icon-server:before {
+        content: "\E968";
+    }
+
+    &.icon-basket:before {
+        content: "\E821";
+    }
+
+    &.icon-bulb:before {
+        content: "\E82F";
+    }
+
+    &.icon-alert:before {
+        content: "\E1DE";
+    }
+
+    &.icon-fullscreen:before {
+        content: "\E1D9";
+    }
+
+    &.icon-square:before {
+        content: "\E25E";
+    }
+
+    &.icon-circle:before {
+        content: "\EC14";
+    }
+
+    &.icon-apps:before {
+        content: "\E74C";
+    }
+
+    &.icon-pointer:before {
+        content: "\E1E3";
+    }
+
+    &.icon-devices:before {
+        content: "\E70C";
+    }
+
+    &.icon-clock:before {
+        content: "\E823";
+    }
+
+    &.icon-collapse:before {
+        content: "\E92C";
+    }
+
+    &.icon-book:before {
+        content: "\E82D";
+    }
+
+    &.icon-grid:before {
+        content: "\E80A";
+    }
+
+    &.icon-glyph-499:before {
+        content: "\E878";
+    }
+
+    &.icon-refresh:before {
+        content: "\E72C";
+    }
+
+    &.icon-save:before {
+        content: "\E74E";
+    }
+
+    &.icon-edit:before {
+        content: "\E70F";
+    }
+
+    &.icon-delete:before {
+        content: "\E74D";
+    }
+
+    &.icon-resize:before {
+        content: "\E73F";
+    }
+
+    &.icon-favoriteStar:before {
+        content: "\E734";
+    }
+
+    &.icon-emoji2:before {
+        content: "\E76E";
+    }
+
+    &.icon-help:before {
+        content: "\E897";
+    }
+
+    &.icon-bell:before {
+        content: "\EA8F";
+    }
+
+    &.icon-check:before {
+        content: "\E73A";
+    }
+
+    &.icon-uncheck:before {
+        content: "\E739";
+    }
+
+    &.icon-arrow-modal-down:before {
+        content: "\E936";
+    }
+
+    &.icon-unpin:before {
+        content: "\E77A";
+    }
+
+    &.icon-pin:before {
+        content: "\E718";
+    }
+
+    &.icon-camera:before {
+        content: "\E722";
+    }
+
+    &.icon-gallery:before {
+        content: "\E80A";
+    }
+
+    &.icon-illustration:before {
+        content: "\E8B8";
+    }
+
+    &.icon-book:before {
+        content: "\E8B7";
+    }
+
+    &.icon-arrow-up:before {
+        content: "\E74A";
+    }
+
+    &.icon-arrow-down:before {
+        content: "\E74B";
+    }
+
+    &.icon-data:before {
+        content: "\E8A5";
+    }
+
+    &.icon-rename:before {
+        content: "\E8AC";
+    }
+
+    &.icon-relation:before {
+        content: "\E72D";
+    }
+
+    &.icon-link:before {
+        content: "\E71B";
+    }
+
+    &.icon-warning:before {
+        content: "\E814";
+    }
+
+    &.icon-alert-error {
+        content: "\EB90";
+    }
+
+    &.icon-alert-info {
+        content: "\E783";
+    }
+
+    &.icon-upload::before {
+        content: "\E898";
+    }
+
+    &.icon-preview::before {
+        content: "\E8FF";
+    }
+
+    &.icon-video::before {
+        content: "\E714";
+    }
+
+    &.icon-share::before {
+        content: "\f00D";
+    }
+
+    &.icon-information::before {
+        content: "\E946";
+    }
+
+    &.icon-forward::before {
+        content: "\E72A";
+    }
+
+    &.icon-map-pin::before {
+        content: "\E707";
+    }
+
+
+    &.icon-feedback::before {
+        content: "\E939";
+    }
+
+    &.icon-LockLegacy::before {
+        content: "\E1F6";
+    }
+
+    &.icon-Feedback::before {
+        content: "\ED15";
+    }
+
+    &.icon-Battery5:before {
+        content: "\E855";
+    }
+
+    &.icon-OtherUserLegacy:before {
+        content: "\E1A6";
+    }
+
+    &.icon-SaveAsLegacy:before {
+        content: "\E28F";
+    }
+}
+
+.o-365-icons {
+
+    @extend .icon;
+    font-family: 'office365icons' !important;
+
+    &.icon {
+
+        &-computer:before {
+            content: "\e382";
+        }
+        &-next:before {
+            content: "\e396";
+        }
+        &-prev:before {
+            content: "\e395";
+        }
+
+        &-users:before {
+            content: "\e305";
+        }
+
+        &-enterprise-social:before {
+            content: "\e410";
+        }
+
+        &-communications:before {
+            content: "\e39b";
+        }
+
+        &-cal-clock:before {
+            content: "\e39f";
+        }
+
+        &-content-auth:before {
+            content: "\e40f";
+        }
+
+        &-share:before {
+            content: "\e086";
+        }
+
+        &-read:before {
+            content: "\e0b2";
+        }
+
+        &-speak:before {
+            content: "\e293";
+        }
+
+        &-waffle:before {
+            content: "\E11F";
+        }
+
+        &-info:before {
+            content: "\E00A";
+        }
+
+        &-question:before {
+            content: '\e006';
+        }
+
+        &-lock:before {
+            content: '\e038';
+        }
+
+        &-circle-question:before {
+            content: '\F2E1';
+        }
+
+        &-frowny:before {
+            content: '\e220';
+        }
+
+        &-circle-add:before {
+            content: '\e403';
+        }
+
+        &-map-marker:before {
+            content: '\e124';
+        }
+
+        &-hidden:before {
+            content: "\e197";
+        }
+
+        &-designer:before {
+            content: "\e288";
+        }
+
+        &-Share:before {
+            content: "\e078";
+        }
+
+        &-save:before {
+            content: "\e025";
+        }
+
+        &-engage-help:before {
+            content: "\e19c";
+        }
+
+        &-close:before {
+            content: "\e40c";
+        }
+
+        &-success:before {
+            content: "\E381";
+        }
+    }
+}

@@ -1,0 +1,284 @@
+///////EMPLOYEES////////////
+
+.employee {
+  border-bottom: none;
+  position: relative;
+  height: 100%;
+  border-bottom: none;
+  .employee-info {
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 8px;
+    border: 1px solid $dark-grey;
+    border-bottom: none;
+    position: relative;
+    height: calc(100% - 43px);
+  }
+  h4 {
+    display: inline-block;
+  }
+  .pers-icon {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .roles {
+    .col-6 {
+      padding-bottom: 10px;
+    }
+  }
+  .desc {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    transition: all 0.35s ease-out;
+    &.active {
+      padding-top: 10px;
+      opacity: 1;
+      visibility: visible;
+      height: 105px;
+      @include mq($S) {
+        height: 130px;
+      }
+    }
+
+  }
+}
+
+.show .active {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+///////SCENARIO////////////
+
+///////CAPABILITIES////////////
+#maturity > div:nth-last-child(2) {
+  hr {
+    display: none !important;
+  }
+}
+.cap-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 1em;
+  @include mq($S) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-bottom: 2em;
+  }
+  @include mq($M) {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  @include mq($L) {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  &.error {
+    margin-left: auto;
+    .cap-box {
+      background-color: #F35D7A;
+      color: white;
+      border: none;
+      cursor: default;
+
+      p {
+        width: 100%;
+      }
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.cap-item {
+  padding-bottom: 1em;
+  @include mq($M) {
+    padding-bottom: 0;
+  }
+}
+
+.cap-box {
+  border: 1px solid darken($grey, 30%);
+  padding: 5px 10px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  transition: 0.25s ease-in;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 4px 4px rgba(0, 120, 212, 0.6);
+  }
+  .text-container {
+    position: relative;
+    margin: 0px 31px 0 15px;
+    width: 83%;
+    .title {
+      margin: 0px 0px 3px 0px;
+      line-height: 1.1 !important;
+    }
+    .recommended {
+      color: $blue;
+      font-size: 0.8em;
+      margin: 0px 0px;
+    }
+  }
+  .icon {
+    width: 15%;
+    font-size: 24px;
+    vertical-align: middle;
+    &.cap-icon {
+      font-size: 30px;
+    }
+  }
+  &.recommended {
+    border: 1.5px solid rgba($blue, 1);
+  }
+  &.selected {
+    border-color: $blue;
+    background-color: $blue;
+    color: white;
+    .recommended {
+      color: white;
+    }
+    .icon {
+      color: white;
+    }
+    .icon-info {
+      &:before {
+        background: url('./icons/info-white-white.svg') no-repeat center center;
+      }
+    }
+  }
+  &--small {
+    height: 60px;
+    p {
+      margin: 0px 0px 3px 0px;
+      font-size: 14px !important;
+      line-height: 1.1 !important;
+    }
+  }
+}
+
+.icon-battery-75 {
+  font-size: 16px !important;
+}
+
+.error-container {
+  margin: -20px 0px 35px 0px;
+  .col-12 {
+    padding: 0px 0px;
+    p {
+      font-style: italic;
+      margin: 0px 0px;
+      &.error-message {
+        color: $surfaceSB2-13;
+      }
+    }
+  }
+}
+///////MATURITY////////////
+
+#maturity {
+  .row {
+    &:first-child {
+      margin-bottom: 10px;
+    }
+  }
+  .header-container {
+    margin-bottom: .75em;
+  }
+  .row-header {
+    display: flex;
+    align-items: center;
+  }
+  .row-description {
+    margin-left: 0px;
+    margin-bottom: 0em;
+    @include mq($S) {
+      margin-left: 38px;
+      margin-bottom: .5em;
+    }
+  }
+  .progress-bar {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    height: 5px;
+    background-color: $grey;
+    &__inner {
+      position: absolute;
+      left: 0px;
+      height: 100%;
+      background-color: $blue;
+      &.is-1 {
+        width: 33.33%;
+      }
+      &.is-2 {
+        width: 66.67%;
+      }
+      &.is-3 {
+        width: 100%;
+      }
+    }
+  }
+  .cap-level {
+    border: 1px solid $dark-grey;
+    border-bottom: none;
+    margin-bottom: 8px;
+    .text-container {
+      padding: 0 15px 15px 15px;
+      overflow-y: auto;
+
+      @include mq($S) {
+        height: 200px;
+      }
+    }
+  }
+  h4 {
+    padding-right: 10px;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  .icon-info {
+    &:before {
+      right: auto;
+    }
+  }
+  .btn-blue.btn-select {
+    &:after {
+      right: 38%;
+    }
+    &.checked:after {
+      background: none;
+    }
+  }
+  hr {
+    display: block !important;
+    margin: 20px 0px;
+    @include mq($S) {
+      margin: 25px 0px;
+    }
+  }
+}
+.text-align--right {
+  text-align: right;
+}
+///////PROFILE////////////
+#profile {
+  padding-top: 110px;
+  @include mq($S) {
+    padding-top: 0px;
+  }
+  .disclaimer {
+    font-style: italic;
+  }
+}
+///////RESULTS -- see results.scss ////////////

@@ -1,0 +1,209 @@
+{
+  "Employee": {
+    "title": "Pick a persona to represent your team",
+    "content": "Like our devices, this assessment is focused on the user. To begin, select a type of employee that you want to assess for mobility maturity. There are role examples and brief descriptions for each to help you understand how Microsoft defines each type of employee.",
+    "explanation": "At the end of the assessment, your contact information will be necessary to get your results.",
+    "buttonText": "Next"
+  },
+  "Scenario": {
+    "title": "Refine the scenarios based<br>on your HR team's use cases.",
+    "content": "Every person works differently. The specific jobs, tasks, and day-to-day experiences of your employees dictate how they use their devices and the underlying technologies that power their productivity. These questions will help you refine the scenario and choose the best device for your employees.",
+    "buttonText": "Choose your technology capabilities",
+    "questions": [
+      {
+        "id": "MobileDevice",
+        "icon": "icon icon-mobile-device",
+        "question": "How much time do team members typically spend away from their desks?",
+        "answers": [
+          "25%",
+          "50%",
+          "75%",
+          "100%"
+        ],
+        "response": ""
+      },
+      {
+        "id": "Screens",
+        "icon": "icon icon-screens",
+        "question": "How many external monitors do your employees need when they’re at their desk?",
+        "answers": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4+"
+        ],
+        "response": ""
+      },
+      {
+        "id": "PenPaper",
+        "icon": "icon icon-pencil",
+        "question": "Does your team primarily take notes with pen and paper?",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "response": ""
+      },
+      {
+        "id": "Devices",
+        "icon": "icon icon-multiple-devices",
+        "question": "Do your team members use multiple devices for work? ",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "response": ""
+      },
+      {
+        "id": "Share",
+        "icon": "o-365-icons icon-users",
+        "question": "Do your team members have a shared device?",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "response": ""
+      },
+      {
+        "id": "OnTheGo",
+        "icon": "icon icon-time",
+        "question": "Do your team members need access to data on the go, all the time (For example, if Wi-Fi isn’t available)?",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "response": ""
+      }
+    ]
+  },
+  "Capabilities": {
+    "title": "Choose the most important technology capabilities that relate to your team.",
+    "content": "<p>Below are 22 technology capabilities that can combine to form a modern device experience <span class='blue'>(We have provided five recommendations for your HR employees as a starting point)</span>.</p><p>Choose the five most relevant capabilities for <xxxx> employees in your organization, or those that represent areas in which you think your organization should invest based on your team’s tops tasks and needs. These capabilities relate to your employees’ productivity applications, their operating systems and daily software experiences, and the specific hardware components that connect to their devices.</p>",
+    "buttonText": "Next"
+  },
+  "Profile": {
+    "title": "Make sure you can receive<br>and share your results.",
+    "content": "We want to help you benchmark yourself against similar companies in your industry. Microsoft might use your contact information to provide updates and special offers about Microsoft Surface and other Microsoft products and services. You can unsubscribe at any time. To learn more, you can read the privacy statement.",
+    "buttonText": "Take the assessment",
+    "PrivacyNotice": "Microsoft may use your contact information to provide updates and special offers about Data Management and other Microsoft products and services.  You can unsubscribe at any time. To learn more you can read the ",
+    "PrivacyNoticeUrlText": "privacy statement.",
+    "PrivacyNoticeUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "PrivacyEmailLable": "Contact me by email",
+    "ContactMap": {
+      "0": "Unknown",
+      "1": "Do Not Contact",
+      "2": "OK to Contact"
+    },
+    "PrivacyPhoneLable": "Contact me by phone"
+  },
+  "Maturity": {
+    "title": "Choose your maturity levels.",
+    "content": "A maturity level is a measure of your employees’ current capabilities. For each of the five technology capabilities you selected for your employees, review the levels of maturity and choose the one that best defines the current state of your employees’ capabilities.",
+    "buttonText": "See your results"
+  },
+  "Results": {
+    "surfaceTitle": "The right device for your team’s needs",
+    "surfaceMore": "Based on your inputs, your team recommended Microsoft Surface Book with Performance Base",
+    "capHeader": "A modern, premium device brings specific benefits for each technology capabilities for your HR team.",
+    "capMore": "<p>No matter how your team scored for each of their relevant technology capabilities, either lower at 1 or more mature at 3, using modern and premium devices can ensure your team can take advantage of the benefits that come with increased maturity for each capability.</p><p>Below demonstrates where your team currently is for each, and how a Surface like Surface Book with Performance Base can both increase your scores as well as help your team ensure it is taking advantage of all available benefits.</p>",
+    "level1or2": "Receive these specific benefits from increasing in maturity",
+    "level3": "Ensure you are taking advantage of these benefits with your mature experience",
+    "nextSteps": [
+      {
+        "title": "Get in touch",
+        "img": "../../src/assets/results/touch.jpg",
+        "desc": "Contact a Microsoft representative to learn more about your recommended device or how to bring Surface into your organization.",
+        "path": "support"
+      },
+      {
+        "title": "Share",
+        "img": "../../src/assets/results/share.jpg",
+        "desc": "Share your results with others within your organization to start talking about what premium devices can do for your team.",
+        "path": "share"
+      },
+      {
+        "title": "Start a new assessment",
+        "img": "../../src/assets/results/new.jpg",
+        "desc": "Take another assessment to evaluate the modern device maturity of other types of employees in your organization.",
+        "path": "new"
+      }
+    ],
+    "deviceImgs": {
+      "Surface Book 2 for Business": [
+        "../../src/assets/products/SB2/SB2-1.jpg",
+        "../../src/assets/products/SB2/SB2-2.jpg",
+        "../../src/assets/products/SB2/SB2-3.jpg",
+        "../../src/assets/products/SB2/SB2-4.jpg"
+      ],
+      "Surface Studio 2 for Business": [
+        "../../src/assets/products/SS/SS-1.jpg",
+        "../../src/assets/products/SS/SS-2.jpg",
+        "../../src/assets/products/SS/SS-3.jpg",
+        "../../src/assets/products/SS/SS-4.jpg"
+      ],
+      "Surface Pro 6 for Business": [
+        "../../src/assets/products/SP6/SP6-1.jpg",
+        "../../src/assets/products/SP6/SP6-2.jpg",
+        "../../src/assets/products/SP6/SP6-3.jpg",
+        "../../src/assets/products/SP6/SP6-4.jpg"
+      ],
+      "Surface Go for Business": [
+        "../../src/assets/products/SG/SG-1.jpg",
+        "../../src/assets/products/SG/SG-2.jpg",
+        "../../src/assets/products/SG/SG-3.jpg",
+        "../../src/assets/products/SG/SG-4.jpg"
+      ],
+      "Surface Laptop 2 for Business": [
+        "../../src/assets/products/SL2/SL2-1.jpg",
+        "../../src/assets/products/SL2/SL2-2.jpg",
+        "../../src/assets/products/SL2/SL2-3.jpg",
+        "../../src/assets/products/SL2/SL2-4.jpg"
+      ],
+      "Surface Go LTE for Business": [
+        "../../src/assets/products/SG-LTE/SG-LTE-1.jpg",
+        "../../src/assets/products/SG-LTE/SG-LTE-2.jpg",
+        "../../src/assets/products/SG-LTE/SG-LTE-3.jpg",
+        "../../src/assets/products/SG-LTE/SG-LTE-4.jpg"
+      ],
+      "Surface Pro 5 for Business": [
+        "../../src/assets/products/SP5/SP5-1.jpg",
+        "../../src/assets/products/SP5/SP5-2.jpg",
+        "../../src/assets/products/SP5/SP5-3.jpg",
+        "../../src/assets/products/SP5/SP5-4.jpg"
+      ]
+    }
+  },
+  "NavLinks": [
+    {
+      "title": "Pick your employee",
+      "url": "employees",
+      "active": true,
+      "visited": false
+    },
+    {
+      "title": "Refine the scenario",
+      "url": "scenario",
+      "active": false,
+      "visited": false
+    },
+    {
+      "title": "capabilities",
+      "url": "capabilities",
+      "active": false,
+      "visited": false
+    },
+    {
+      "title": "Maturity levels",
+      "url": "maturity",
+      "active": false,
+      "visited": false
+    },
+    {
+      "title": "Results",
+      "url": "results",
+      "active": false,
+      "visited": false
+    }
+  ]
+}
